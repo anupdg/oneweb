@@ -38,7 +38,8 @@
         NODES_EDITABLE : 'B3331D7E-5FEA-4763-959F-BB468F7A2252',
         APPLY_MATERIAL : '22D78DEB-39B2-4DB4-A560-5B0C143B02F8',
         SCENE_READY : '56C8AB6F-5F86-441A-9E7B-84CF4A81CDC9',
-        READY_FOR_EDITABLE: '11AC52C9-D395-4B50-A0BE-B8F993218F8A'
+        READY_FOR_EDITABLE: '11AC52C9-D395-4B50-A0BE-B8F993218F8A',
+        ANCHORS_FROM_MENU: 'B615910B-0253-4334-B7FD-B9CFCFD3E155'
       }
     }
 
@@ -66,6 +67,11 @@
 
     applyMaterial(node, material) {
       this.postMessage({ type: this.messages.APPLY_MATERIAL, node, material });
+    }
+
+    setCustomAnchors(anchors) {
+      console.log('Sending anchors', anchors);
+      this.postMessage({ type: this.messages.ANCHORS_FROM_MENU, anchors });  
     }
   }
 
@@ -123,6 +129,7 @@
       this.sceneController = new SceneController(this.sceneFrame);
       this.selectedOption = '';
       this.nodes = {};
+      this.anchorsFromMenu = [];
       this.materialImageMap = {
         "FAB_1": "https://img.freepik.com/free-photo/dark-green-wall_53876-90733.jpg?w=740",
         "FAB_2": "https://img.freepik.com/free-photo/minimal-stone-structure-texture_23-2149041177.jpg?w=740",
@@ -199,18 +206,18 @@
         }
 
       this.anchorIdToDropdownKey = {
-        "SOFA_LONG": "LONG SOFA MAT",
-        "ARM_CHAIRS": "ARM CHAIRS",
+        "SOFA LONG": "LONG SOFA MAT",
+        "ARM CHAIRS": "ARM CHAIRS",
         "FLOOR": "FLOOR",
-        "DINING_CARPET": "DINING CARPET",
-        "DINING_WALL": "DINING WALL",
-        "LIVING_WALL": "LIVING WALL",
-        "LONG_SOFA_MAT": "LONG SOFA MAT",
-        "LIVING_CARPET": "LIVING CARPET",
-        "DINING_FLOOR": "DINING FLOOR",
-        "BEDROOM_CARPET": "BEDROOM CARPET",
-        "BEDROOM_FLOOR": "BEDROOM FLOOR",
-        "BEDROOM_WALL": "BEDROOM WALL"
+        "DINING CARPET": "DINING CARPET",
+        "DINING WALL": "DINING WALL",
+        "LIVING WALL": "LIVING WALL",
+        "LONG SOFA MAT": "LONG SOFA MAT",
+        "LIVING CARPET": "LIVING CARPET",
+        "DINING FLOOR": "DINING FLOOR",
+        "BEDROOM CARPET": "BEDROOM CARPET",
+        "BEDROOM FLOOR": "BEDROOM FLOOR",
+        "BEDROOM WALL": "BEDROOM WALL"
       };
 
     }
@@ -252,6 +259,7 @@
         if (event.data && event.data.type === ref.sceneController.messages.READY_FOR_EDITABLE) {
           const nodeNames = Object.values(ref.nodes).flatMap(entry => entry.meshes || []).map(mesh => mesh.name);
           ref.sceneController.setNodesEditable(nodeNames);
+          ref.sceneController.setCustomAnchors(ref.anchorsFromMenu);
         }
       });
     } 
@@ -260,6 +268,17 @@
       try {
         const res = await fetch("menu-cover.json");
         const data = await res.json();
+
+        this.anchorsFromMenu = data.extensions
+          .filter(ext => ext.trigger && ext.trigger.position)
+          .map(ext => ({
+            name: ext.name,
+            position: ext.trigger.position,
+            type: 'sphere',
+            icon: /switch/i.test(ext.type) ? 'question': 'info',
+            radius: 0.15,
+            tabType: /switch/i.test(ext.type) ? "Mesh" : "Material"
+        }));
 
         data.extensions?.forEach((ext) => {
           if (ext.toPick || this.meshMap[ext.name]) {

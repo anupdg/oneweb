@@ -236,14 +236,13 @@
           const tabType = event.data.payload?.tabType;
 
           if (tabType) {
-            app.toggleTab(tabType); 
+            app.toggleTab(tabType, true); 
           }
 
           const dropdownKey = app.anchorIdToDropdownKey[anchorId];
           if (dropdownKey && app.nodes[dropdownKey]) {
             app.elementSelector.value = dropdownKey;
-            const e = new Event("change", { bubbles: true });
-            app.elementSelector.dispatchEvent(e);
+            app.handleSelection({ target: app.elementSelector }, true);
             console.log(`Dropdown set via anchor click: ${dropdownKey}`);
           } else {
             console.log(`No dropdown mapping found for anchor ID: ${anchorId}`);
@@ -331,7 +330,7 @@
       this.elementSelector.addEventListener("change", (e) => this.handleSelection(e));
     }
 
-    toggleTab(tab) {
+    toggleTab(tab, suppressGoToView = false) {
       if (!this.meshTab || !this.materialTab) return;
 
       const [active, inactive] = tab === "Mesh"
@@ -342,11 +341,11 @@
       inactive.classList.remove("active");
 
       if (this.elementSelector.value !== "none") {
-        this.handleSelection({ target: this.elementSelector });
+        this.handleSelection({ target: this.elementSelector }, suppressGoToView);
       }
     }
 
-    handleSelection(e) {
+    handleSelection(e, suppressGoToView = false) {
       const selectedKey = e.target.value;
       this.selectedOption = selectedKey;
       if (selectedKey === "none" || !this.nodes[selectedKey]) {
@@ -359,7 +358,7 @@
         selected.selectedNode = selected.defaultNode;
       }
       
-      if (selected.view) {
+      if (!suppressGoToView && selected.view) {
         this.sceneController.goToView(selected.view);
       }
       

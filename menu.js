@@ -359,7 +359,7 @@
       }
       
       if (!suppressGoToView && selected.view) {
-        this.sceneController.goToView(selected.view);
+        // this.sceneController.goToView(selected.view);
       }
       
       const isMeshTabActive = this.meshTab.classList.contains("active");

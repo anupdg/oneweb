@@ -72,6 +72,10 @@
       console.log('Sending anchors', anchors);
       this.postMessage({ type: this.messages.ANCHORS_FROM_MENU, anchors });  
     }
+    sendSofaTexture(url, node) {
+      console.log("Sending custom sofa texture", url, node);
+      this.postMessage({type: this.messages.CUSTOM_SOFA_TEXTURE, url, node});
+    }
   }
 
   class DisplayManager {
@@ -130,9 +134,9 @@
       this.nodes = {};
       this.anchorsFromMenu = [];
       this.materialImageMap = {
-        "FAB_1": "https://img.freepik.com/free-photo/dark-green-wall_53876-90733.jpg?w=740",
-        "FAB_2": "https://img.freepik.com/free-photo/minimal-stone-structure-texture_23-2149041177.jpg?w=740",
-        "FAB_3": "https://img.freepik.com/premium-photo/granite-blue-tiles-that-look-like-blue_684636-3788.jpg?w=740",
+        "FAB_1": "https://i.imgur.com/HAm5vBi.png",
+        "FAB_2": "https://i.imgur.com/gLZKBpt.jpeg",
+        "FAB_3": "https://i.imgur.com/87MhjGi.jpeg",
         "RUG_1": "https://img.freepik.com/free-photo/fabric-texture-background_1385-1176.jpg?w=740",
         "RUG_4": "https://img.freepik.com/premium-photo/colorful-knitted-texture-fabric-stripes_127093-647.jpg?w=740",
         "Floor_2": "https://img.freepik.com/free-photo/brown-wooden-flooring-background_53876-88628.jpg?w=740",
@@ -383,10 +387,16 @@
       console.log("Material selected:", item);
       this.nodes[this.selectedOption].selectedMaterial = item.name;
       const node = this.nodes[this.selectedOption].selectedNode;
+      if (this.selectedOption === "LONG SOFA MAT") {
+        this.sceneController.sendSofaTexture(item.url, node);
+      }
+      else{
       this.sceneController.applyMaterial(node, item.name);
+      }
     }
   }
 
   // Bootstrap
   const app = new App();
   app.init();
+

@@ -1,0 +1,232 @@
+{
+    "engineLogoOn": false,
+    "extensions": [
+        {
+            "enabled": true,
+            "hideAllAfterLast": false,
+            "hideAllOnStart": false,
+            "name": "1",
+            "nodeTypes": [
+                "s1",
+                "s2",
+                "s3"
+            ],
+            "trigger": {
+                "cameraVolumeType": "cube",
+                "color": "#4c9ed9",
+                "height": 0.2,
+                "icon": "pen",
+                "image": null,
+                "nodeType": null,
+                "opacity": 1,
+                "position": [
+                    -1.0541866336614973,
+                    0.7853590668944459,
+                    0.7981119516186964
+                ],
+                "radius": 0.07,
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "textColor": "#ffffff",
+                "triggerOnEnter": true,
+                "triggerOnExit": false,
+                "type": "sphere"
+            },
+            "type": "SwitchObjects"
+        },
+        {
+            "enabled": true,
+            "name": "panel1",
+            "toPick": [
+                "Beigewheel",
+                "Sagecrane",
+                "Coralmist",
+                "Blushaviary",
+                "Tealaviary",
+                "Rosagrove"
+            ],
+            "toReplace": "Bloom",
+            "trigger": {
+                "cameraVolumeType": "cube",
+                "color": "#4c9ed9",
+                "height": 0.2,
+                "icon": "pen",
+                "image": null,
+                "nodeType": null,
+                "opacity": 1,
+                "position": [
+                    -1.676257834427554,
+                    1.6135037877067469,
+                    2.472428998154937
+                ],
+                "radius": 0.07,
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "textColor": "#ffffff",
+                "triggerOnEnter": true,
+                "triggerOnExit": false,
+                "type": "sphere"
+            },
+            "type": "MaterialPicker"
+        },
+        {
+            "enabled": true,
+            "name": "rug",
+            "toPick": [
+                "Arda",
+                "Rosefern",
+                "Seaforest",
+                "Midnightfern",
+                "Stonebloom",
+                "Kayla",
+                "Cloudpetal",
+                "Verdanta",
+                "Saharine"
+            ],
+            "toReplace": "Lunara",
+            "trigger": {
+                "cameraVolumeType": "cube",
+                "color": "#4c9ed9",
+                "height": 0.2,
+                "icon": "pen",
+                "image": null,
+                "nodeType": null,
+                "opacity": 1,
+                "position": [
+                    -0.22925512455841268,
+                    -0.23305861616930437,
+                    0.051929565732100426
+                ],
+                "radius": 0.07,
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "textColor": "#ffffff",
+                "triggerOnEnter": true,
+                "triggerOnExit": false,
+                "type": "sphere"
+            },
+            "type": "MaterialPicker"
+        },
+        {
+            "enabled": true,
+            "name": "sofa",
+            "toPick": [
+                "Clayweave",
+                "Sandvelour",
+                "Skybloom",
+                "Stonegrid",
+                "Terrastripe"
+            ],
+            "toReplace": "Ashloom",
+            "trigger": {
+                "cameraVolumeType": "cube",
+                "color": "#4c9ed9",
+                "height": 0.2,
+                "icon": "palette",
+                "image": null,
+                "nodeType": null,
+                "opacity": 1,
+                "position": [
+                    -1.0517995798030526,
+                    1.5188423025327185,
+                    0.732193496312388
+                ],
+                "radius": 0.07,
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "textColor": "#ffffff",
+                "triggerOnEnter": true,
+                "triggerOnExit": false,
+                "type": "sphere"
+            },
+            "type": "MaterialPicker"
+        },
+        {
+            "enabled": true,
+            "name": "hide",
+            "type": "HideAnchors",
+            "visibleOnStart": true
+        },
+        {
+            "enabled": true,
+            "name": "panel2",
+            "toPick": [
+                "Azura",
+                "Florawood",
+                "Teal Medallion",
+                "Terracotta Medallione",
+                "Featherfield",
+                "Meadow Lace",
+                "Oroflora",
+                "Aqualora"
+            ],
+            "toReplace": "Lilacstone",
+            "trigger": {
+                "cameraVolumeType": "cube",
+                "color": "#4c9ed9",
+                "height": 0.2,
+                "icon": "pen",
+                "image": null,
+                "nodeType": null,
+                "opacity": 1,
+                "position": [
+                    3.694529930824853,
+                    1.14799819145809,
+                    2.406918933065865
+                ],
+                "radius": 0.07,
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "textColor": "#ffffff",
+                "triggerOnEnter": true,
+                "triggerOnExit": false,
+                "type": "sphere"
+            },
+            "type": "MaterialPicker"
+        }
+    ],
+    "sendStats": true,
+    "brotliJsDecode": false,
+    "canForceBrotliBuffers": true,
+    "webwalkLogMode": 0
+}

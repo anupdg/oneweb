@@ -183,15 +183,12 @@
         ],
         "sofa": [
           { "name": "{sofa_fab}Shape25", "default": true },
+          { "name": "s2", "default": false },
+          { "name": "s3", "default": false },
         ],
         "rug": [
           { "name": "SM_Living004", "default": true }
         ],
-        "1": [
-          { "name": "s1", "default": true },
-          { "name": "s2", "default": false },
-          { "name": "s3", "default": false }
-        ]
       };
 
       this.viewMap = {
@@ -206,7 +203,6 @@
         "panel2": "panel2",
         "rug": "rug",
         "sofa": "sofa",
-        "1": "1",
       };
        this.imageUrl = this.customSofaMaterialUrl;
 
@@ -379,13 +375,8 @@
       console.log("Material selected:", item);
       this.nodes[this.selectedOption].selectedMaterial = item.name;
       const node = this.nodes[this.selectedOption].selectedNode;
-      if (this.selectedOption === "LONG SOFA MAT") {
-        this.sceneController.sendSofaTexture(item.url, node);
-      } else {
         console.log(this.selectedOption, "sele")
-
         this.sceneController.applyMaterial(node, item.name);
-      }
     }
   }
 

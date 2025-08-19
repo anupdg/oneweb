@@ -1,0 +1,5789 @@
+{
+    "atlases": [
+        {
+            "alpha": false,
+            "id": "atlases/o0",
+            "name": "atlases/o0",
+            "rawExt": "png",
+            "stdExt": "jpg",
+            "webFormats": [
+                "small/std",
+                "small/basis"
+            ]
+        },
+        {
+            "alpha": true,
+            "id": "atlases/t0",
+            "name": "atlases/t0",
+            "rawExt": "png",
+            "stdExt": "png",
+            "webFormats": [
+                "small/std",
+                "small/basis"
+            ]
+        },
+        {
+            "alpha": true,
+            "id": "atlases/t1",
+            "name": "atlases/t1",
+            "rawExt": "png",
+            "stdExt": "png",
+            "webFormats": [
+                "small/std",
+                "small/basis"
+            ]
+        },
+        {
+            "alpha": true,
+            "id": "atlases/t2",
+            "name": "atlases/t2",
+            "rawExt": "png",
+            "stdExt": "png",
+            "webFormats": [
+                "small/std",
+                "small/basis"
+            ]
+        },
+        {
+            "alpha": true,
+            "id": "atlases/t3",
+            "name": "atlases/t3",
+            "rawExt": "png",
+            "stdExt": "png",
+            "webFormats": [
+                "small/std",
+                "small/basis"
+            ]
+        },
+        {
+            "alpha": true,
+            "id": "atlases/t4",
+            "name": "atlases/t4",
+            "rawExt": "png",
+            "stdExt": "png",
+            "webFormats": [
+                "small/std",
+                "small/basis"
+            ]
+        }
+    ],
+    "autoAddLightProbes": false,
+    "autoTour": {
+        "disabled": false,
+        "startOnLoad": false
+    },
+    "camera": {
+        "autoClimb": false,
+        "autoExposure": false,
+        "autoExposureLumaTarget": 0.65,
+        "autoPath": true,
+        "exposure": 0,
+        "fov": 45,
+        "gamma": 1,
+        "lutIntensity": 1,
+        "moveMaxSpeed": 1.11,
+        "toneMapping": 3
+    },
+    "cameraVolumes": [],
+    "cyclesUnitsVersion": "4.4",
+    "disableProgressiveLoader": false,
+    "emissiveMaterialsLightEnabled": true,
+    "formatVersion": "3.3.4",
+    "interactionPrompt": false,
+    "lightProbes": [
+        {
+            "box": {
+                "enabled": true,
+                "max": [
+                    3.7758667931837193,
+                    3.873569303400376,
+                    3.194117135297069
+                ],
+                "min": [
+                    -1.749623402894712,
+                    -2.220548343658447,
+                    0.01764654706177482
+                ]
+            },
+            "id": 0,
+            "position": [
+                1.0131216951445037,
+                1.269653334651703,
+                1.3176465470617749
+            ]
+        },
+        {
+            "box": {
+                "enabled": true,
+                "max": [
+                    3.7745447326812633,
+                    3.8750373440116146,
+                    3.194282786171789
+                ],
+                "min": [
+                    -1.750945463397168,
+                    -2.219080303047209,
+                    0.009969060681592312
+                ]
+            },
+            "id": 2,
+            "position": [
+                3.344617520008802,
+                2.5346505158533623,
+                1.653106315583553
+            ]
+        },
+        {
+            "box": {
+                "enabled": true,
+                "max": [
+                    3.77599006902841,
+                    3.8758269864415977,
+                    3.194282786171789
+                ],
+                "min": [
+                    -1.753421695677472,
+                    -2.222212229244677,
+                    0.009969060681592312
+                ]
+            },
+            "id": 3,
+            "position": [
+                3.344617520008802,
+                -1.1641128593319692,
+                1.653106315583553
+            ]
+        }
+    ],
+    "lightmap": {
+        "encoding": "ycocgm",
+        "formats": [
+            "webp"
+        ],
+        "lightmapLayoutVersion": 4,
+        "thresholds": [
+            0.14999999105930328
+        ]
+    },
+    "lights": [
+        {
+            "angle": 180,
+            "color": [
+                1,
+                0.88,
+                0.799
+            ],
+            "doNotImport": true,
+            "enabled": true,
+            "height": 0.2,
+            "instances": [
+                {
+                    "position": [
+                        0.3298427614753702,
+                        0.956,
+                        3.069
+                    ],
+                    "rotation": [
+                        0,
+                        -90,
+                        0
+                    ]
+                }
+            ],
+            "name": "light",
+            "photometricProfile": "2.ies",
+            "size": 0.1,
+            "strength": 0.3000000000000001,
+            "type": "spot",
+            "width": 0.2
+        },
+        {
+            "angle": 140,
+            "color": [
+                1,
+                0.88,
+                0.799
+            ],
+            "doNotImport": true,
+            "enabled": true,
+            "height": 0.2,
+            "instances": [
+                {
+                    "position": [
+                        -0.6432364655682734,
+                        2.431444742965738,
+                        3.069
+                    ],
+                    "rotation": [
+                        0,
+                        -90,
+                        0
+                    ]
+                },
+                {
+                    "position": [
+                        -0.6432364655682734,
+                        -1.129338722624527,
+                        3.069
+                    ],
+                    "rotation": [
+                        0,
+                        -90,
+                        0
+                    ]
+                },
+                {
+                    "position": [
+                        2.68910911289425,
+                        -1.129338722624527,
+                        3.069
+                    ],
+                    "rotation": [
+                        0,
+                        -90,
+                        0
+                    ]
+                },
+                {
+                    "position": [
+                        2.688651130664902,
+                        1.0525790480023756,
+                        3.069
+                    ],
+                    "rotation": [
+                        0,
+                        -90,
+                        0
+                    ]
+                },
+                {
+                    "position": [
+                        2.68910911289425,
+                        2.2518799765944935,
+                        3.069
+                    ],
+                    "rotation": [
+                        0,
+                        -90,
+                        0
+                    ]
+                },
+                {
+                    "position": [
+                        -0.6432364655682734,
+                        0.9162014399053532,
+                        3.069
+                    ],
+                    "rotation": [
+                        0,
+                        -90,
+                        0
+                    ]
+                }
+            ],
+            "name": "light2",
+            "photometricProfile": "2.ies",
+            "size": 0.1,
+            "strength": 0.1,
+            "type": "spot",
+            "width": 0.2
+        },
+        {
+            "angle": 140,
+            "color": [
+                1,
+                0.88,
+                0.799
+            ],
+            "doNotImport": true,
+            "enabled": true,
+            "height": 2.07,
+            "instances": [
+                {
+                    "position": [
+                        2.359932396376536,
+                        3.989588228941371,
+                        1.326940960756766
+                    ],
+                    "rotation": [
+                        -180,
+                        0,
+                        -180
+                    ]
+                },
+                {
+                    "position": [
+                        -0.3880908759522722,
+                        3.989588228941371,
+                        1.326940960756766
+                    ],
+                    "rotation": [
+                        -180,
+                        0,
+                        -180
+                    ]
+                }
+            ],
+            "name": "light3",
+            "size": 0.1,
+            "strength": 5,
+            "type": "area",
+            "width": 1.03
+        },
+        {
+            "angle": 140,
+            "color": [
+                1,
+                0.88,
+                0.799
+            ],
+            "doNotImport": true,
+            "enabled": false,
+            "height": 1.87,
+            "instances": [
+                {
+                    "position": [
+                        2.3389268640251055,
+                        3.675509036694764,
+                        1.3164176621534376
+                    ],
+                    "rotation": [
+                        -180,
+                        0,
+                        -180
+                    ]
+                },
+                {
+                    "position": [
+                        -0.3044408883067709,
+                        3.675509036694764,
+                        1.3164176621534376
+                    ],
+                    "rotation": [
+                        -180,
+                        0,
+                        -180
+                    ]
+                }
+            ],
+            "name": "light4",
+            "size": 0.1,
+            "strength": 8,
+            "type": "area",
+            "width": 0.95
+        },
+        {
+            "angle": 180,
+            "color": [
+                1,
+                0.88,
+                0.799
+            ],
+            "doNotImport": true,
+            "enabled": true,
+            "height": 0.2,
+            "instances": [
+                {
+                    "position": [
+                        1.3377646528856295,
+                        1.179908351312892,
+                        3.084270613621956
+                    ],
+                    "rotation": [
+                        0,
+                        -90,
+                        0
+                    ]
+                }
+            ],
+            "name": "light5",
+            "photometricProfile": "2.ies",
+            "size": 0.03,
+            "strength": 0.5,
+            "type": "spot",
+            "width": 0.2
+        },
+        {
+            "angle": 140,
+            "color": [
+                1,
+                0.799,
+                0.658
+            ],
+            "doNotImport": true,
+            "enabled": true,
+            "height": 0.2,
+            "instances": [
+                {
+                    "position": [
+                        1.472100193667969,
+                        0.4971790265853563,
+                        1.202479330540328
+                    ],
+                    "rotation": [
+                        179,
+                        -55,
+                        -166
+                    ]
+                }
+            ],
+            "name": "light6",
+            "size": 0.02,
+            "strength": 5,
+            "type": "sun",
+            "width": 0.2
+        }
+    ],
+    "materials": [
+        {
+            "alphaInLowerHalf": false,
+            "baseColor": [
+                0.847,
+                0.847,
+                0.847
+            ],
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": false,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": false
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 0,
+            "metallic": 0,
+            "name": "windowframe",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 0.13999998569488523,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "baseColor": [
+                0.949,
+                0.91,
+                0.882
+            ],
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": false,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": true
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 1,
+            "metallic": 0,
+            "name": "moldings",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 0,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.431,
+                0.31,
+                0.145
+            ],
+            "baseColorTexture": {
+                "alpha": false,
+                "id": "floor2",
+                "name": "floor2",
+                "rawExt": "jpg",
+                "stdExt": "jpg",
+                "webFormats": [
+                    "small/std",
+                    "small/basis"
+                ]
+            },
+            "bumpScale": 0.001,
+            "bumpTexture": {
+                "alpha": false,
+                "id": "floor",
+                "name": "floor",
+                "rawExt": "jpeg",
+                "stdExt": "jpg",
+                "webFormats": [
+                    "small/std",
+                    "small/basis"
+                ]
+            },
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "bumpTexture": true,
+                "metallic": true,
+                "opacity": false,
+                "roughness": true
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 2,
+            "metallic": 0.37,
+            "name": "floor",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 0.33,
+            "type": "standard",
+            "uvOffsetScale": [
+                0,
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "alphaInLowerHalf": false,
+            "baseColor": [
+                0.043,
+                0.043,
+                0.043
+            ],
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": false,
+                "bumpTexture": false,
+                "metallic": true,
+                "opacity": false,
+                "roughness": true
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 3,
+            "metallic": 0.48,
+            "name": "JianE_Mtl_20237181635386227",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 0.11,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "baseColor": [
+                0.198,
+                0.117,
+                0.083
+            ],
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": false,
+                "bumpTexture": false,
+                "metallic": true,
+                "opacity": false,
+                "roughness": true
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 4,
+            "metallic": 0.48,
+            "name": "JianE_Mtl_20237181635386229_2",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 0.06,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "baseColor": [
+                0.616,
+                0.475,
+                0.369
+            ],
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": false,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": false
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 5,
+            "metallic": 0,
+            "name": "JianE_Mtl_20237181635386229_1",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 0.05000001192092896,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "baseColor": [
+                0,
+                0,
+                0
+            ],
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": false,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": false
+            },
+            "doubleSided": false,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 7,
+            "metallic": 0,
+            "name": "Material #2147483062",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 0.019999980926513672,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "baseColor": [
+                0,
+                0,
+                0
+            ],
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": false,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": false
+            },
+            "doubleSided": false,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 8,
+            "metallic": 0,
+            "name": "chrome",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 0,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "baseColor": [
+                0.345,
+                0.31,
+                0.271
+            ],
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": false,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": false
+            },
+            "doubleSided": false,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 9,
+            "metallic": 0,
+            "name": "mat_metal",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 0.25,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "baseColor": [
+                0.682,
+                0.682,
+                0.682
+            ],
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": false,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": false
+            },
+            "doubleSided": false,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 10,
+            "metallic": 0,
+            "name": "monitor",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 1,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "baseColor": [
+                0,
+                0,
+                0
+            ],
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": false,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": false
+            },
+            "doubleSided": false,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 11,
+            "metallic": 0,
+            "name": "glass",
+            "opacity": 0.10000002384185792,
+            "reflective": true,
+            "roughness": 0,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "baseColor": [
+                0.651,
+                0.651,
+                0.651
+            ],
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": false,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": false
+            },
+            "doubleSided": false,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 12,
+            "metallic": 0,
+            "name": "perfo_6",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 0.10000002384185792,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "baseColor": [
+                0,
+                0.106,
+                0
+            ],
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": false,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": false
+            },
+            "doubleSided": false,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 13,
+            "metallic": 0,
+            "name": "led",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 0,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "baseColor": [
+                0.008,
+                0.004,
+                0.004
+            ],
+            "baseColorTexture": {
+                "alpha": false,
+                "id": "Map__6",
+                "name": "Map__6",
+                "rawExt": "png",
+                "stdExt": "jpg",
+                "webFormats": [
+                    "small/std",
+                    "small/basis"
+                ]
+            },
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": false,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": false
+            },
+            "doubleSided": false,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 14,
+            "metallic": 0,
+            "name": "wood",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 0.19999998807907104,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "baseColor": [
+                0.516,
+                0.373,
+                0.239
+            ],
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": false,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": false
+            },
+            "doubleSided": false,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 15,
+            "metallic": 0,
+            "name": "front_dark",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 0.2501960694789887,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "baseColor": [
+                0.4,
+                0.29,
+                0.18
+            ],
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": false,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": false
+            },
+            "doubleSided": false,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 16,
+            "metallic": 0,
+            "name": "mat_metal_dark",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 0.19999998807907104,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.42,
+                0.278,
+                0.161
+            ],
+            "baseColorTexture": {
+                "alpha": false,
+                "id": "wood",
+                "name": "wood",
+                "rawExt": "jpg",
+                "stdExt": "jpg",
+                "webFormats": [
+                    "small/std",
+                    "small/basis"
+                ]
+            },
+            "baseColorTextureCorrection": {
+                "contrast": 0.145,
+                "hslAdjustment": [
+                    0,
+                    -0.585,
+                    -0.615
+                ],
+                "inversion": false,
+                "scale": 0
+            },
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": false
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 17,
+            "metallic": 0,
+            "name": "Material #2147482983",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 0.3500000238418579,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "baseColor": [
+                0.051,
+                0.027,
+                0.016
+            ],
+            "baseColorTexture": {
+                "alpha": false,
+                "id": "0303020",
+                "name": "0303020",
+                "rawExt": "jpg",
+                "stdExt": "jpg",
+                "webFormats": [
+                    "small/std",
+                    "small/basis"
+                ]
+            },
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": false,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": true
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 19,
+            "metallic": 0,
+            "name": "A_www.jjkjnet.com-s-162023-12-06_831553",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 0.8,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "baseColor": [
+                0.086,
+                0.059,
+                0.039
+            ],
+            "baseColorTexture": {
+                "alpha": false,
+                "atlasId": "atlases/o0",
+                "atlasOffset": [
+                    0.857177734375,
+                    0.000244140625
+                ],
+                "atlasScale": [
+                    0.12158203125,
+                    0.121337890625
+                ],
+                "id": "0303021",
+                "name": "0303021",
+                "rawExt": "jpg",
+                "stdExt": "jpg",
+                "webFormats": []
+            },
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": false,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": false
+            },
+            "doubleSided": false,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 20,
+            "metallic": 0,
+            "name": "A_www.jjkjnet.com-s-162023-12-06_814208",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 1,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "baseColor": [
+                0.165,
+                0.129,
+                0.11
+            ],
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": false,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": false
+            },
+            "doubleSided": false,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 21,
+            "metallic": 0,
+            "name": "A_www.jjkjnet.com-s-162023-12-06_968670",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 1,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "baseColor": [
+                0.447,
+                0.361,
+                0.286
+            ],
+            "baseColorTexture": {
+                "alpha": false,
+                "atlasId": "atlases/o0",
+                "atlasOffset": [
+                    0.000244140625,
+                    0.685791015625
+                ],
+                "atlasScale": [
+                    0.1474609375,
+                    0.1630859375
+                ],
+                "id": "0303022",
+                "name": "0303022",
+                "rawExt": "jpg",
+                "stdExt": "jpg",
+                "webFormats": []
+            },
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": false,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": true
+            },
+            "doubleSided": false,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 22,
+            "metallic": 0,
+            "name": "A_www.jjkjnet.com-s-162023-12-06_940943",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 0.8,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "baseColor": [
+                0.558,
+                0.552,
+                0.552
+            ],
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": true
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 23,
+            "metallic": 0,
+            "name": "JianE_Mtl_202434123913072_3",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 0.12,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "baseColor": [
+                0.078,
+                0.078,
+                0.078
+            ],
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": false,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": false
+            },
+            "doubleSided": false,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 24,
+            "metallic": 0,
+            "name": "JianE_Mtl_202434123913072_1",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 1,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "baseColor": [
+                0.337,
+                0.319,
+                0.254
+            ],
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": true
+            },
+            "doubleSided": false,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 31,
+            "metallic": 0,
+            "name": "wall",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 0.8,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.558,
+                0.491,
+                0.402
+            ],
+            "chromaKeyColor": [
+                0,
+                0.94,
+                0
+            ],
+            "chromaKeyDelta": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "chromaKeyEnabled": false,
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": true
+            },
+            "doubleSided": false,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 32,
+            "metallic": 0,
+            "name": "beige",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 0.8,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.337,
+                0.319,
+                0.254
+            ],
+            "chromaKeyColor": [
+                0,
+                0.94,
+                0
+            ],
+            "chromaKeyDelta": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "chromaKeyEnabled": false,
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": true
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 33,
+            "metallic": 0,
+            "name": "blue",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 0.8,
+            "type": "standard",
+            "uvOffsetScale": [
+                0,
+                0,
+                0.905,
+                1
+            ]
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.808,
+                0.741,
+                0.702
+            ],
+            "baseColorTexture": {
+                "alpha": false,
+                "id": "WP_BD_0001-min",
+                "name": "WP_BD_0001-min",
+                "rawExt": "jpg",
+                "stdExt": "jpg",
+                "webFormats": [
+                    "small/std",
+                    "small/basis",
+                    "large/basis"
+                ]
+            },
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": false
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 80,
+            "metallic": 0,
+            "name": "Lilacstone",
+            "opacity": 1,
+            "reflective": false,
+            "roughness": 1,
+            "type": "standard",
+            "uvOffsetScale": [
+                0,
+                0,
+                1.5,
+                1.5
+            ]
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.558,
+                0.491,
+                0.402
+            ],
+            "chromaKeyColor": [
+                0,
+                0.94,
+                0
+            ],
+            "chromaKeyDelta": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "chromaKeyEnabled": false,
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "bumpTexture": false,
+                "metallic": true,
+                "opacity": false,
+                "roughness": false
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 35,
+            "metallic": 0.11,
+            "name": "beige_lam",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 0,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                1,
+                1,
+                1
+            ],
+            "chromaKeyColor": [
+                0,
+                0.94,
+                0
+            ],
+            "chromaKeyDelta": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "chromaKeyEnabled": false,
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": true
+            },
+            "doubleSided": false,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 36,
+            "metallic": 0,
+            "name": "ceiling",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 1,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "baseColor": [
+                0.565,
+                0.541,
+                0.467
+            ],
+            "baseColorTexture": {
+                "alpha": false,
+                "atlasId": "atlases/o0",
+                "atlasOffset": [
+                    0.000244140625,
+                    0.000244140625
+                ],
+                "atlasScale": [
+                    0.1708984375,
+                    0.1708984375
+                ],
+                "id": "panel1",
+                "name": "panel1",
+                "rawExt": "png",
+                "stdExt": "jpg",
+                "webFormats": []
+            },
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": false,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": false
+            },
+            "doubleSided": false,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 81,
+            "metallic": 0,
+            "name": "Petalarch",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 0,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "baseColor": [
+                0.863,
+                0.863,
+                0.863
+            ],
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "bumpTexture": false,
+                "metallic": true,
+                "opacity": false,
+                "roughness": false
+            },
+            "doubleSided": false,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 38,
+            "metallic": 0.21,
+            "name": "white_lam",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 0,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "baseColor": [
+                0.125,
+                0.122,
+                0.122
+            ],
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "bumpTexture": false,
+                "metallic": true,
+                "opacity": false,
+                "roughness": false
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 42,
+            "metallic": 0.29,
+            "name": "rail",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 0,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "baseColor": [
+                1,
+                1,
+                1
+            ],
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": false
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 46,
+            "metallic": 0,
+            "name": "Skirting",
+            "opacity": 1,
+            "reflective": false,
+            "roughness": 1,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "baseColor": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": false,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": true
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 47,
+            "metallic": 0,
+            "name": "vray_Moooi_Heracleum_Stainless Steel",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 0,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                1,
+                0.88,
+                0.799
+            ],
+            "chromaKeyColor": [
+                0,
+                0.94,
+                0
+            ],
+            "chromaKeyDelta": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "chromaKeyEnabled": false,
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "bumpTexture": false,
+                "emissive": true,
+                "metallic": false,
+                "opacity": false,
+                "roughness": false
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": true,
+            "envMapProject": true,
+            "id": 48,
+            "metallic": 0,
+            "name": "vray_Moooi_Heracleum Light",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 1,
+            "type": "standard",
+            "uvOffsetScale": [
+                0,
+                0,
+                2,
+                2
+            ]
+        },
+        {
+            "alphaInLowerHalf": false,
+            "baseColor": [
+                0,
+                0,
+                0
+            ],
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": false,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": false
+            },
+            "doubleSided": false,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 51,
+            "metallic": 0,
+            "name": "JianE_Mtl_202312171957541994",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 0.23000001907348633,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.353,
+                0.4,
+                0.369
+            ],
+            "baseColorTexture": {
+                "alpha": true,
+                "atlasId": "atlases/t0",
+                "atlasOffset": [
+                    0.000244140625,
+                    0.000244140625
+                ],
+                "atlasScale": [
+                    0.396240234375,
+                    0.49951171875
+                ],
+                "id": "2",
+                "name": "2",
+                "rawExt": "png",
+                "stdExt": "png",
+                "webFormats": []
+            },
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": false
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 83,
+            "metallic": 0,
+            "name": "Lunara",
+            "opacity": 1,
+            "reflective": false,
+            "roughness": 1,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.435,
+                0.459,
+                0.416
+            ],
+            "baseColorTexture": {
+                "alpha": true,
+                "atlasId": "atlases/t0",
+                "atlasOffset": [
+                    0.39697265625,
+                    0.000244140625
+                ],
+                "atlasScale": [
+                    0.396240234375,
+                    0.49951171875
+                ],
+                "id": "6",
+                "name": "6",
+                "rawExt": "png",
+                "stdExt": "png",
+                "webFormats": []
+            },
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": false
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 82,
+            "metallic": 0,
+            "name": "Cloudpetal",
+            "opacity": 1,
+            "reflective": false,
+            "roughness": 1,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.443,
+                0.376,
+                0.345
+            ],
+            "baseColorTexture": {
+                "alpha": true,
+                "atlasId": "atlases/t0",
+                "atlasOffset": [
+                    0.000244140625,
+                    0.500244140625
+                ],
+                "atlasScale": [
+                    0.396240234375,
+                    0.49951171875
+                ],
+                "id": "3",
+                "name": "3",
+                "rawExt": "png",
+                "stdExt": "png",
+                "webFormats": []
+            },
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": false
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 84,
+            "metallic": 0,
+            "name": "Verdanta",
+            "opacity": 1,
+            "reflective": false,
+            "roughness": 1,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.471,
+                0.486,
+                0.412
+            ],
+            "baseColorTexture": {
+                "alpha": true,
+                "atlasId": "atlases/t0",
+                "atlasOffset": [
+                    0.39697265625,
+                    0.500244140625
+                ],
+                "atlasScale": [
+                    0.396240234375,
+                    0.49951171875
+                ],
+                "id": "4",
+                "name": "4",
+                "rawExt": "png",
+                "stdExt": "png",
+                "webFormats": []
+            },
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": false
+            },
+            "doubleSided": false,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 85,
+            "metallic": 0,
+            "name": "Seaforest",
+            "opacity": 1,
+            "reflective": false,
+            "roughness": 1,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.471,
+                0.463,
+                0.392
+            ],
+            "baseColorTexture": {
+                "alpha": true,
+                "atlasId": "atlases/t1",
+                "atlasOffset": [
+                    0.000244140625,
+                    0.000244140625
+                ],
+                "atlasScale": [
+                    0.396240234375,
+                    0.49951171875
+                ],
+                "id": "5",
+                "name": "5",
+                "rawExt": "png",
+                "stdExt": "png",
+                "webFormats": []
+            },
+            "chromaKeyColor": [
+                0,
+                0.94,
+                0
+            ],
+            "chromaKeyDelta": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "chromaKeyEnabled": false,
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": false
+            },
+            "doubleSided": false,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 86,
+            "metallic": 0,
+            "name": "Rosefern",
+            "opacity": 1,
+            "reflective": false,
+            "roughness": 1,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.392,
+                0.361,
+                0.31
+            ],
+            "baseColorTexture": {
+                "alpha": true,
+                "atlasId": "atlases/t1",
+                "atlasOffset": [
+                    0.39697265625,
+                    0.000244140625
+                ],
+                "atlasScale": [
+                    0.396240234375,
+                    0.49951171875
+                ],
+                "id": "11",
+                "name": "11",
+                "rawExt": "png",
+                "stdExt": "png",
+                "webFormats": []
+            },
+            "chromaKeyColor": [
+                0,
+                0.94,
+                0
+            ],
+            "chromaKeyDelta": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "chromaKeyEnabled": false,
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": false
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 89,
+            "metallic": 0,
+            "name": "Saharine",
+            "opacity": 1,
+            "reflective": false,
+            "roughness": 1,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.349,
+                0.361,
+                0.341
+            ],
+            "baseColorTexture": {
+                "alpha": true,
+                "atlasId": "atlases/t1",
+                "atlasOffset": [
+                    0.000244140625,
+                    0.500244140625
+                ],
+                "atlasScale": [
+                    0.396240234375,
+                    0.49951171875
+                ],
+                "id": "7",
+                "name": "7",
+                "rawExt": "png",
+                "stdExt": "png",
+                "webFormats": []
+            },
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": false
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 90,
+            "metallic": 0,
+            "name": "Stonebloom",
+            "opacity": 1,
+            "reflective": false,
+            "roughness": 1,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.231,
+                0.322,
+                0.337
+            ],
+            "baseColorTexture": {
+                "alpha": true,
+                "atlasId": "atlases/t1",
+                "atlasOffset": [
+                    0.39697265625,
+                    0.500244140625
+                ],
+                "atlasScale": [
+                    0.396240234375,
+                    0.49951171875
+                ],
+                "id": "9",
+                "name": "9",
+                "rawExt": "png",
+                "stdExt": "png",
+                "webFormats": []
+            },
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": false
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 28,
+            "metallic": 0,
+            "name": "Midnightfern",
+            "opacity": 1,
+            "reflective": false,
+            "roughness": 1,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.455,
+                0.49,
+                0.42
+            ],
+            "baseColorTexture": {
+                "alpha": true,
+                "atlasId": "atlases/t2",
+                "atlasOffset": [
+                    0.00048828125,
+                    0.00048828125
+                ],
+                "atlasScale": [
+                    0.79248046875,
+                    0.9990234375
+                ],
+                "id": "10",
+                "name": "10",
+                "rawExt": "png",
+                "stdExt": "png",
+                "webFormats": []
+            },
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": false
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 92,
+            "metallic": 0,
+            "name": "Kayla",
+            "opacity": 1,
+            "reflective": false,
+            "roughness": 1,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.459,
+                0.494,
+                0.424
+            ],
+            "baseColorTexture": {
+                "alpha": true,
+                "atlasId": "atlases/t3",
+                "atlasOffset": [
+                    0.00048828125,
+                    0.00048828125
+                ],
+                "atlasScale": [
+                    0.79248046875,
+                    0.9990234375
+                ],
+                "id": "ARDA-10",
+                "name": "ARDA-10",
+                "rawExt": "png",
+                "stdExt": "png",
+                "webFormats": []
+            },
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": false
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 6,
+            "metallic": 0,
+            "name": "Arda",
+            "opacity": 1,
+            "reflective": false,
+            "roughness": 1,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.49,
+                0.396,
+                0.318
+            ],
+            "baseColorTexture": {
+                "alpha": false,
+                "id": "curtain",
+                "name": "curtain",
+                "rawExt": "jpg",
+                "stdExt": "jpg",
+                "webFormats": [
+                    "small/std",
+                    "small/basis"
+                ]
+            },
+            "baseColorTextureCorrection": {
+                "contrast": 0.16,
+                "hslAdjustment": [
+                    0,
+                    0,
+                    0
+                ],
+                "inversion": false,
+                "scale": 0
+            },
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": true
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 43,
+            "metallic": 0,
+            "name": "curtain_1",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 0.8,
+            "type": "standard",
+            "uvOffsetScale": [
+                0,
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.404,
+                0.255,
+                0.2
+            ],
+            "baseColorTexture": {
+                "alpha": false,
+                "atlasId": "atlases/o0",
+                "atlasOffset": [
+                    0.171630859375,
+                    0.000244140625
+                ],
+                "atlasScale": [
+                    0.1708984375,
+                    0.1708984375
+                ],
+                "id": "SAFARI_SMOKE_BaseColor_200KB",
+                "name": "SAFARI_SMOKE_BaseColor_200KB",
+                "rawExt": "jpg",
+                "stdExt": "jpg",
+                "webFormats": []
+            },
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": true
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 95,
+            "metallic": 0,
+            "name": "sofa_fab",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 0.8,
+            "type": "standard",
+            "uvOffsetScale": [
+                0,
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.13,
+                0.127,
+                0.127
+            ],
+            "chromaKeyColor": [
+                0,
+                0.94,
+                0
+            ],
+            "chromaKeyDelta": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "chromaKeyEnabled": false,
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": true
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 50,
+            "metallic": 0.81,
+            "name": "sofa-001",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 0,
+            "type": "standard",
+            "uvOffsetScale": [
+                0,
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "alphaInLowerHalf": false,
+            "baseColor": [
+                0.157,
+                0.161,
+                0.176
+            ],
+            "baseColorTexture": {
+                "alpha": true,
+                "atlasId": "atlases/t4",
+                "atlasOffset": [
+                    0.00048828125,
+                    0.00048828125
+                ],
+                "atlasScale": [
+                    0.78125,
+                    0.439453125
+                ],
+                "id": "diffuse011",
+                "name": "diffuse011",
+                "rawExt": "png",
+                "stdExt": "png",
+                "webFormats": []
+            },
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": false,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": true,
+                "roughness": true
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 52,
+            "metallic": 0,
+            "name": "shadow",
+            "opacity": 0.65,
+            "reflective": true,
+            "roughness": 1,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.478,
+                0.439,
+                0.376
+            ],
+            "baseColorTexture": {
+                "alpha": false,
+                "id": "D-B-Eldorado-3588_BaseColor",
+                "name": "D-B-Eldorado-3588_BaseColor",
+                "rawExt": "jpg",
+                "stdExt": "jpg",
+                "webFormats": [
+                    "small/std",
+                    "small/basis"
+                ]
+            },
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": false
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 26,
+            "metallic": 0,
+            "name": "pillow_01",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 1,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.639,
+                0.588,
+                0.518
+            ],
+            "baseColorTexture": {
+                "alpha": false,
+                "id": "D-B-Cathy_Earthy_Linen-3426-V-6.00InH-5.00In_BaseColor",
+                "name": "D-B-Cathy_Earthy_Linen-3426-V-6.00InH-5.00In_BaseColor",
+                "rawExt": "png",
+                "stdExt": "jpg",
+                "webFormats": [
+                    "small/std",
+                    "small/basis"
+                ]
+            },
+            "bumpScale": 0.001,
+            "bumpTexture": {
+                "alpha": false,
+                "id": "f09_bump",
+                "name": "f09_bump",
+                "rawExt": "jpg",
+                "stdExt": "jpg",
+                "webFormats": [
+                    "small/std",
+                    "small/basis"
+                ]
+            },
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "bumpTexture": true,
+                "metallic": false,
+                "opacity": false,
+                "roughness": true
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 27,
+            "metallic": 0,
+            "name": "pillow_02",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 0.8,
+            "type": "standard",
+            "uvOffsetScale": [
+                0,
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.5,
+                0.5,
+                0.5
+            ],
+            "chromaKeyColor": [
+                0,
+                0.94,
+                0
+            ],
+            "chromaKeyDelta": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "chromaKeyEnabled": false,
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": true
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 57,
+            "metallic": 0,
+            "name": "sofafab_1",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 0.5,
+            "type": "standard",
+            "uvOffsetScale": [
+                0,
+                0,
+                2,
+                2
+            ]
+        },
+        {
+            "alphaInLowerHalf": false,
+            "baseColor": [
+                0.157,
+                0.161,
+                0.176
+            ],
+            "baseColorTexture": {
+                "alpha": true,
+                "id": "diffuse012",
+                "name": "diffuse012",
+                "rawExt": "png",
+                "stdExt": "png",
+                "webFormats": [
+                    "small/std",
+                    "small/basis",
+                    "large/basis"
+                ]
+            },
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": false,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": true,
+                "roughness": true
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 56,
+            "metallic": 0,
+            "name": "shadow2",
+            "opacity": 0.76,
+            "reflective": true,
+            "roughness": 1,
+            "type": "standard",
+            "uvOffsetScale": [
+                0,
+                0.873,
+                1,
+                1.27
+            ]
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.478,
+                0.439,
+                0.376
+            ],
+            "baseColorTexture": {
+                "alpha": false,
+                "id": "D-B-Eldorado-3588_BaseColor",
+                "name": "D-B-Eldorado-3588_BaseColor",
+                "rawExt": "jpg",
+                "stdExt": "jpg",
+                "webFormats": [
+                    "small/std",
+                    "small/basis"
+                ]
+            },
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": true
+            },
+            "doubleSided": false,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 53,
+            "metallic": 0,
+            "name": "JianE_Mtl_2023121719575420129",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 0.5,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.176,
+                0.071,
+                0.027
+            ],
+            "baseColorTexture": {
+                "alpha": false,
+                "id": "justeasy.cn_map_202312171957478017",
+                "name": "justeasy.cn_map_202312171957478017",
+                "rawExt": "jpg",
+                "stdExt": "jpg",
+                "webFormats": [
+                    "small/std",
+                    "small/basis"
+                ]
+            },
+            "baseColorTextureCorrection": {
+                "contrast": 0.025,
+                "hslAdjustment": [
+                    0,
+                    -0.52,
+                    -0.385
+                ],
+                "inversion": false,
+                "scale": 0
+            },
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": false,
+                "roughness": false
+            },
+            "doubleSided": false,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 54,
+            "metallic": 0,
+            "name": "JianE_Mtl_2023121719575419912",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 1,
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "baseColor": [
+                0.157,
+                0.161,
+                0.176
+            ],
+            "baseColorTexture": {
+                "alpha": true,
+                "id": "diffuse013",
+                "name": "diffuse013",
+                "rawExt": "png",
+                "stdExt": "png",
+                "webFormats": [
+                    "small/std",
+                    "small/basis",
+                    "large/basis"
+                ]
+            },
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": false,
+                "bumpTexture": false,
+                "metallic": false,
+                "opacity": true,
+                "roughness": true
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 25,
+            "metallic": 0,
+            "name": "shadow3",
+            "opacity": 0.75,
+            "reflective": true,
+            "roughness": 1,
+            "type": "standard",
+            "uvOffsetScale": [
+                -0.002,
+                -0.085,
+                1.034,
+                1.165
+            ]
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.404,
+                0.255,
+                0.2
+            ],
+            "baseColorTexture": {
+                "alpha": false,
+                "atlasId": "atlases/o0",
+                "atlasOffset": [
+                    0.171630859375,
+                    0.000244140625
+                ],
+                "atlasScale": [
+                    0.1708984375,
+                    0.1708984375
+                ],
+                "id": "SAFARI_SMOKE_BaseColor_200KB",
+                "name": "SAFARI_SMOKE_BaseColor_200KB",
+                "rawExt": "jpg",
+                "stdExt": "jpg",
+                "webFormats": []
+            },
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "opacity": false
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 18,
+            "metallic": 0,
+            "name": "sofa_smoke",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 1,
+            "source": "editor",
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.588,
+                0.49,
+                0.467
+            ],
+            "baseColorTexture": {
+                "alpha": false,
+                "id": "panel1d",
+                "name": "panel1d",
+                "rawExt": "jpg",
+                "stdExt": "jpg",
+                "webFormats": [
+                    "small/std",
+                    "small/basis"
+                ]
+            },
+            "chromaKeyColor": [
+                0,
+                0.94,
+                0
+            ],
+            "chromaKeyDelta": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "chromaKeyEnabled": false,
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "opacity": false
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 29,
+            "metallic": 0,
+            "name": "Bloom",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 1,
+            "source": "editor",
+            "type": "standard",
+            "uvOffsetScale": [
+                0,
+                0,
+                0.6950000000000001,
+                1
+            ]
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.816,
+                0.769,
+                0.702
+            ],
+            "baseColorTexture": {
+                "alpha": false,
+                "atlasId": "atlases/o0",
+                "atlasOffset": [
+                    0.343017578125,
+                    0.000244140625
+                ],
+                "atlasScale": [
+                    0.1708984375,
+                    0.1708984375
+                ],
+                "id": "BD_Vintage_Boho_Mandala_-_soft_beige_linen-min",
+                "name": "BD_Vintage_Boho_Mandala_-_soft_beige_linen-min",
+                "rawExt": "jpg",
+                "stdExt": "jpg",
+                "webFormats": []
+            },
+            "chromaKeyColor": [
+                0,
+                0.94,
+                0
+            ],
+            "chromaKeyDelta": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "chromaKeyEnabled": false,
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "opacity": false
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 30,
+            "metallic": 0,
+            "name": "Beigewheel",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 1,
+            "source": "editor",
+            "type": "standard",
+            "uvOffsetScale": [
+                -0.08700000000000001,
+                0,
+                0.388,
+                1
+            ]
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.365,
+                0.373,
+                0.286
+            ],
+            "baseColorTexture": {
+                "alpha": false,
+                "atlasId": "atlases/o0",
+                "atlasOffset": [
+                    0.514404296875,
+                    0.000244140625
+                ],
+                "atlasScale": [
+                    0.1708984375,
+                    0.1708984375
+                ],
+                "id": "BD_Chinoiserie_crane_birds_floral_garden_-_dusty_green-min",
+                "name": "BD_Chinoiserie_crane_birds_floral_garden_-_dusty_green-min",
+                "rawExt": "jpg",
+                "stdExt": "jpg",
+                "webFormats": []
+            },
+            "chromaKeyColor": [
+                0,
+                0.94,
+                0
+            ],
+            "chromaKeyDelta": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "chromaKeyEnabled": false,
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "opacity": false
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 34,
+            "metallic": 0,
+            "name": "Sagecrane",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 1,
+            "source": "editor",
+            "type": "standard",
+            "uvOffsetScale": [
+                0.044,
+                0,
+                0.653,
+                1
+            ]
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.863,
+                0.761,
+                0.722
+            ],
+            "baseColorTexture": {
+                "alpha": false,
+                "atlasId": "atlases/o0",
+                "atlasOffset": [
+                    0.685791015625,
+                    0.000244140625
+                ],
+                "atlasScale": [
+                    0.1708984375,
+                    0.1708984375
+                ],
+                "id": "BD_Ombre_abstract_watercolour_landscape__soft_coral-min",
+                "name": "BD_Ombre_abstract_watercolour_landscape__soft_coral-min",
+                "rawExt": "jpg",
+                "stdExt": "jpg",
+                "webFormats": []
+            },
+            "chromaKeyColor": [
+                0,
+                0.94,
+                0
+            ],
+            "chromaKeyDelta": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "chromaKeyEnabled": false,
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "opacity": false
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 37,
+            "metallic": 0,
+            "name": "Coralmist",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 1,
+            "source": "editor",
+            "type": "standard",
+            "uvOffsetScale": [
+                0,
+                0,
+                0.843,
+                1
+            ]
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.643,
+                0.537,
+                0.439
+            ],
+            "baseColorTexture": {
+                "alpha": false,
+                "atlasId": "atlases/o0",
+                "atlasOffset": [
+                    0.000244140625,
+                    0.171630859375
+                ],
+                "atlasScale": [
+                    0.1708984375,
+                    0.1708984375
+                ],
+                "id": "BD_Vintage_Chinoiseries_vines_and_birds_soft_pink-min",
+                "name": "BD_Vintage_Chinoiseries_vines_and_birds_soft_pink-min",
+                "rawExt": "jpg",
+                "stdExt": "jpg",
+                "webFormats": []
+            },
+            "chromaKeyColor": [
+                0,
+                0.94,
+                0
+            ],
+            "chromaKeyDelta": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "chromaKeyEnabled": false,
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "opacity": false
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 39,
+            "metallic": 0,
+            "name": "Blushaviary",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 1,
+            "source": "editor",
+            "type": "standard",
+            "uvOffsetScale": [
+                0,
+                0,
+                0.7000000000000001,
+                1
+            ]
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.471,
+                0.533,
+                0.447
+            ],
+            "baseColorTexture": {
+                "alpha": false,
+                "atlasId": "atlases/o0",
+                "atlasOffset": [
+                    0.171630859375,
+                    0.171630859375
+                ],
+                "atlasScale": [
+                    0.1708984375,
+                    0.1708984375
+                ],
+                "id": "BD_Vintage_Chinoiseries_vines_and_birds_soft_teal-min",
+                "name": "BD_Vintage_Chinoiseries_vines_and_birds_soft_teal-min",
+                "rawExt": "jpg",
+                "stdExt": "jpg",
+                "webFormats": []
+            },
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "opacity": false
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 40,
+            "metallic": 0,
+            "name": "Tealaviary",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 1,
+            "source": "editor",
+            "type": "standard",
+            "uvOffsetScale": [
+                0,
+                0,
+                0.7000000000000001,
+                1
+            ]
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.831,
+                0.796,
+                0.765
+            ],
+            "baseColorTexture": {
+                "alpha": false,
+                "atlasId": "atlases/o0",
+                "atlasOffset": [
+                    0.343017578125,
+                    0.171630859375
+                ],
+                "atlasScale": [
+                    0.1708984375,
+                    0.1708984375
+                ],
+                "id": "BD_Vintage_Spring_Garden_Florals_faded_pink-min",
+                "name": "BD_Vintage_Spring_Garden_Florals_faded_pink-min",
+                "rawExt": "jpg",
+                "stdExt": "jpg",
+                "webFormats": []
+            },
+            "chromaKeyColor": [
+                0,
+                0.94,
+                0
+            ],
+            "chromaKeyDelta": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "chromaKeyEnabled": false,
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "opacity": false
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 41,
+            "metallic": 0,
+            "name": "Rosagrove",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 1,
+            "source": "editor",
+            "type": "standard",
+            "uvOffsetScale": [
+                0.034,
+                0,
+                0.438,
+                1
+            ]
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.345,
+                0.467,
+                0.58
+            ],
+            "baseColorTexture": {
+                "alpha": false,
+                "atlasId": "atlases/o0",
+                "atlasOffset": [
+                    0.514404296875,
+                    0.171630859375
+                ],
+                "atlasScale": [
+                    0.1708984375,
+                    0.1708984375
+                ],
+                "id": "WP_BD_0005-min",
+                "name": "WP_BD_0005-min",
+                "rawExt": "jpg",
+                "stdExt": "jpg",
+                "webFormats": []
+            },
+            "chromaKeyColor": [
+                0,
+                0.94,
+                0
+            ],
+            "chromaKeyDelta": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "chromaKeyEnabled": false,
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "opacity": false
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 45,
+            "metallic": 0,
+            "name": "Azura",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 1,
+            "source": "editor",
+            "type": "standard",
+            "uvOffsetScale": [
+                -0.4,
+                0,
+                1.436,
+                1.3
+            ]
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.573,
+                0.471,
+                0.412
+            ],
+            "baseColorTexture": {
+                "alpha": false,
+                "atlasId": "atlases/o0",
+                "atlasOffset": [
+                    0.685791015625,
+                    0.171630859375
+                ],
+                "atlasScale": [
+                    0.1708984375,
+                    0.1708984375
+                ],
+                "id": "WP_BD_0010",
+                "name": "WP_BD_0010",
+                "rawExt": "jpg",
+                "stdExt": "jpg",
+                "webFormats": []
+            },
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "opacity": false
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 49,
+            "metallic": 0,
+            "name": "Florawood",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 1,
+            "source": "editor",
+            "type": "standard",
+            "uvOffsetScale": [
+                0.092,
+                0,
+                4.5,
+                3
+            ]
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.247,
+                0.341,
+                0.314
+            ],
+            "baseColorTexture": {
+                "alpha": false,
+                "atlasId": "atlases/o0",
+                "atlasOffset": [
+                    0.000244140625,
+                    0.343017578125
+                ],
+                "atlasScale": [
+                    0.1708984375,
+                    0.1708984375
+                ],
+                "id": "WP_BD_0016-min",
+                "name": "WP_BD_0016-min",
+                "rawExt": "jpg",
+                "stdExt": "jpg",
+                "webFormats": []
+            },
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "opacity": false
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 55,
+            "metallic": 0,
+            "name": "Teal Medallion",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 1,
+            "source": "editor",
+            "type": "standard",
+            "uvOffsetScale": [
+                0,
+                0,
+                1.8,
+                1.56
+            ]
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.463,
+                0.255,
+                0.208
+            ],
+            "baseColorTexture": {
+                "alpha": false,
+                "atlasId": "atlases/o0",
+                "atlasOffset": [
+                    0.171630859375,
+                    0.343017578125
+                ],
+                "atlasScale": [
+                    0.1708984375,
+                    0.1708984375
+                ],
+                "id": "WP_BD_0017__1_-min",
+                "name": "WP_BD_0017__1_-min",
+                "rawExt": "jpg",
+                "stdExt": "jpg",
+                "webFormats": []
+            },
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "opacity": false
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 58,
+            "metallic": 0,
+            "name": "Terracotta Medallione",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 1,
+            "source": "editor",
+            "type": "standard",
+            "uvOffsetScale": [
+                0,
+                0,
+                1.8,
+                1.56
+            ]
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.549,
+                0.478,
+                0.427
+            ],
+            "baseColorTexture": {
+                "alpha": false,
+                "atlasId": "atlases/o0",
+                "atlasOffset": [
+                    0.343017578125,
+                    0.343017578125
+                ],
+                "atlasScale": [
+                    0.1708984375,
+                    0.1708984375
+                ],
+                "id": "WP_BD_0024-min",
+                "name": "WP_BD_0024-min",
+                "rawExt": "jpg",
+                "stdExt": "jpg",
+                "webFormats": []
+            },
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "opacity": false
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 59,
+            "metallic": 0,
+            "name": "Featherfield",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 1,
+            "source": "editor",
+            "type": "standard",
+            "uvOffsetScale": [
+                0,
+                0,
+                2,
+                2
+            ]
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.784,
+                0.647,
+                0.533
+            ],
+            "baseColorTexture": {
+                "alpha": false,
+                "atlasId": "atlases/o0",
+                "atlasOffset": [
+                    0.514404296875,
+                    0.343017578125
+                ],
+                "atlasScale": [
+                    0.1708984375,
+                    0.1708984375
+                ],
+                "id": "WP_BD_0043-min",
+                "name": "WP_BD_0043-min",
+                "rawExt": "jpg",
+                "stdExt": "jpg",
+                "webFormats": []
+            },
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "opacity": false
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 60,
+            "metallic": 0,
+            "name": "Meadow Lace",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 1,
+            "source": "editor",
+            "type": "standard",
+            "uvOffsetScale": [
+                0,
+                0,
+                1.3,
+                1.3
+            ]
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.439,
+                0.361,
+                0.243
+            ],
+            "baseColorTexture": {
+                "alpha": false,
+                "atlasId": "atlases/o0",
+                "atlasOffset": [
+                    0.685791015625,
+                    0.343017578125
+                ],
+                "atlasScale": [
+                    0.1708984375,
+                    0.1708984375
+                ],
+                "id": "WP_BD_0046-min",
+                "name": "WP_BD_0046-min",
+                "rawExt": "jpg",
+                "stdExt": "jpg",
+                "webFormats": []
+            },
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "opacity": false
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 61,
+            "metallic": 0,
+            "name": "Oroflora",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 1,
+            "source": "editor",
+            "type": "standard",
+            "uvOffsetScale": [
+                -0.054,
+                0,
+                2.15,
+                1.9
+            ]
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.357,
+                0.357,
+                0.259
+            ],
+            "baseColorTexture": {
+                "alpha": false,
+                "atlasId": "atlases/o0",
+                "atlasOffset": [
+                    0.000244140625,
+                    0.514404296875
+                ],
+                "atlasScale": [
+                    0.1708984375,
+                    0.1708984375
+                ],
+                "id": "WP_BD_0047-min",
+                "name": "WP_BD_0047-min",
+                "rawExt": "jpg",
+                "stdExt": "jpg",
+                "webFormats": []
+            },
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "opacity": false
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 62,
+            "metallic": 0,
+            "name": "Aqualora",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 1,
+            "source": "editor",
+            "type": "standard",
+            "uvOffsetScale": [
+                -0.054,
+                0,
+                2.15,
+                1.9
+            ]
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.204,
+                0.165,
+                0.133
+            ],
+            "baseColorTexture": {
+                "alpha": false,
+                "id": "D-B-U-EARTHY_LINEN-1503_BaseColor",
+                "name": "D-B-U-EARTHY_LINEN-1503_BaseColor",
+                "rawExt": "png",
+                "stdExt": "jpg",
+                "webFormats": [
+                    "small/std",
+                    "small/basis"
+                ]
+            },
+            "chromaKeyColor": [
+                0,
+                0.94,
+                0
+            ],
+            "chromaKeyDelta": [
+                0.1,
+                0.1,
+                0.1
+            ],
+            "chromaKeyEnabled": false,
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "opacity": false
+            },
+            "doubleSided": false,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 44,
+            "metallic": 0,
+            "name": "Ashloom",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 1,
+            "source": "editor",
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.471,
+                0.455,
+                0.373
+            ],
+            "baseColorTexture": {
+                "alpha": false,
+                "atlasId": "atlases/o0",
+                "atlasOffset": [
+                    0.171630859375,
+                    0.514404296875
+                ],
+                "atlasScale": [
+                    0.1708984375,
+                    0.1708984375
+                ],
+                "id": "D-B-U-REST-7466_BaseColor",
+                "name": "D-B-U-REST-7466_BaseColor",
+                "rawExt": "jpg",
+                "stdExt": "jpg",
+                "webFormats": []
+            },
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "opacity": false
+            },
+            "doubleSided": false,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 63,
+            "metallic": 0,
+            "name": "Clayweave",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 1,
+            "source": "editor",
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.655,
+                0.565,
+                0.447
+            ],
+            "baseColorTexture": {
+                "alpha": false,
+                "atlasId": "atlases/o0",
+                "atlasOffset": [
+                    0.343017578125,
+                    0.514404296875
+                ],
+                "atlasScale": [
+                    0.1708984375,
+                    0.1708984375
+                ],
+                "id": "D-B-U-Kanna_Earthy_Linen-5491-V-20.00InH-11.00In_BaseColor",
+                "name": "D-B-U-Kanna_Earthy_Linen-5491-V-20.00InH-11.00In_BaseColor",
+                "rawExt": "jpg",
+                "stdExt": "jpg",
+                "webFormats": []
+            },
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "opacity": false
+            },
+            "doubleSided": false,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 64,
+            "metallic": 0,
+            "name": "Sandvelour",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 1,
+            "source": "editor",
+            "type": "standard"
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.459,
+                0.447,
+                0.431
+            ],
+            "baseColorTexture": {
+                "alpha": false,
+                "atlasId": "atlases/o0",
+                "atlasOffset": [
+                    0.514404296875,
+                    0.514404296875
+                ],
+                "atlasScale": [
+                    0.1708984375,
+                    0.1708984375
+                ],
+                "id": "D-B-Chick_Earthy_Linen-5496-V-5.00InH-5.00In_BaseColor",
+                "name": "D-B-Chick_Earthy_Linen-5496-V-5.00InH-5.00In_BaseColor",
+                "rawExt": "png",
+                "stdExt": "jpg",
+                "webFormats": []
+            },
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "opacity": false
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 65,
+            "metallic": 0,
+            "name": "Skybloom",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 1,
+            "source": "editor",
+            "type": "standard",
+            "uvOffsetScale": [
+                0,
+                0,
+                2,
+                2
+            ]
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.639,
+                0.588,
+                0.518
+            ],
+            "baseColorTexture": {
+                "alpha": false,
+                "id": "D-B-Cathy_Earthy_Linen-3426-V-6.00InH-5.00In_BaseColor",
+                "name": "D-B-Cathy_Earthy_Linen-3426-V-6.00InH-5.00In_BaseColor",
+                "rawExt": "png",
+                "stdExt": "jpg",
+                "webFormats": [
+                    "small/std",
+                    "small/basis"
+                ]
+            },
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "opacity": false
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 66,
+            "metallic": 0,
+            "name": "Stonegrid",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 1,
+            "source": "editor",
+            "type": "standard",
+            "uvOffsetScale": [
+                0,
+                0,
+                1.3,
+                1.3
+            ]
+        },
+        {
+            "alphaInLowerHalf": false,
+            "antiTiling": {
+                "antiTilingType": "None"
+            },
+            "baseColor": [
+                0.498,
+                0.443,
+                0.369
+            ],
+            "baseColorTexture": {
+                "alpha": false,
+                "atlasId": "atlases/o0",
+                "atlasOffset": [
+                    0.685791015625,
+                    0.514404296875
+                ],
+                "atlasScale": [
+                    0.1708984375,
+                    0.1708984375
+                ],
+                "id": "D-B-U-Kindles-7095-V-1.00InH-1.00In_BaseColor",
+                "name": "D-B-U-Kindles-7095-V-1.00InH-1.00In_BaseColor",
+                "rawExt": "jpg",
+                "stdExt": "jpg",
+                "webFormats": []
+            },
+            "cutoutMaskThreshold": 0.5,
+            "cutoutMode": "autodetect",
+            "doNotImport": {
+                "baseColor": true,
+                "opacity": false
+            },
+            "doubleSided": true,
+            "emissionStrength": 1,
+            "emissive": false,
+            "envMapProject": true,
+            "id": 67,
+            "metallic": 0,
+            "name": "Terrastripe",
+            "opacity": 1,
+            "reflective": true,
+            "roughness": 1,
+            "source": "editor",
+            "type": "standard",
+            "uvOffsetScale": [
+                0,
+                0,
+                1.5,
+                1
+            ]
+        }
+    ],
+    "minimap": {
+        "enabled": false,
+        "fillEnabled": true,
+        "levels": [],
+        "outlineColor": [
+            0,
+            0,
+            0
+        ],
+        "outlineThickness": 1
+    },
+    "nodeConfigs": [
+        {
+            "name": "Box030"
+        },
+        {
+            "name": "Box031"
+        },
+        {
+            "name": "Box032"
+        },
+        {
+            "name": "Box033"
+        },
+        {
+            "name": "Box034"
+        },
+        {
+            "name": "Box035"
+        },
+        {
+            "name": "Box036"
+        },
+        {
+            "name": "Box037"
+        },
+        {
+            "name": "Box038"
+        },
+        {
+            "name": "Moooi_Heracleum_Big_O"
+        },
+        {
+            "isolateShadows": true,
+            "name": "Object008",
+            "overriddenMaterialId": 44
+        },
+        {
+            "name": "Object009"
+        },
+        {
+            "isolateShadows": true,
+            "name": "Object01",
+            "overriddenMaterialId": 44
+        },
+        {
+            "name": "Object010"
+        },
+        {
+            "name": "Object011"
+        },
+        {
+            "name": "Object013"
+        },
+        {
+            "name": "Object014"
+        },
+        {
+            "name": "Object015"
+        },
+        {
+            "name": "Object016"
+        },
+        {
+            "name": "Object017"
+        },
+        {
+            "isolateShadows": true,
+            "name": "Object018",
+            "overriddenMaterialId": 44
+        },
+        {
+            "isolateShadows": true,
+            "name": "Object020",
+            "overriddenMaterialId": 44
+        },
+        {
+            "isolateShadows": true,
+            "name": "Object07",
+            "overriddenMaterialId": 44
+        },
+        {
+            "name": "Plane003"
+        },
+        {
+            "name": "SM_A14_000"
+        },
+        {
+            "name": "SM_A14_001"
+        },
+        {
+            "name": "SM_A14_002"
+        },
+        {
+            "name": "SM_A14_003"
+        },
+        {
+            "name": "SM_Living003"
+        },
+        {
+            "name": "SM_Living004"
+        },
+        {
+            "name": "SM_Living021"
+        },
+        {
+            "isolateShadows": true,
+            "name": "Shape25"
+        },
+        {
+            "name": "Walls_01"
+        },
+        {
+            "name": "Walls_01.004"
+        },
+        {
+            "name": "Walls_01.005"
+        },
+        {
+            "name": "Walls_01.007"
+        },
+        {
+            "name": "Walls_01.008"
+        },
+        {
+            "name": "Walls_01.009"
+        },
+        {
+            "name": "cornice"
+        },
+        {
+            "name": "cornice001"
+        },
+        {
+            "name": "curtain159"
+        },
+        {
+            "name": "curtain160"
+        },
+        {
+            "name": "dz01051"
+        },
+        {
+            "name": "dz01053"
+        },
+        {
+            "name": "dz01060"
+        },
+        {
+            "name": "dz01061"
+        },
+        {
+            "name": "dz01062"
+        },
+        {
+            "name": "dz01063"
+        },
+        {
+            "name": "dz01093"
+        },
+        {
+            "name": "dz01095"
+        },
+        {
+            "name": "dz1099"
+        },
+        {
+            "isolateShadows": true,
+            "name": "pillow-sit010",
+            "overriddenMaterialId": 44
+        },
+        {
+            "isolateShadows": true,
+            "name": "pillow-sit06",
+            "overriddenMaterialId": 44
+        },
+        {
+            "isolateShadows": true,
+            "name": "pillow-sit09",
+            "overriddenMaterialId": 44
+        },
+        {
+            "isolateShadows": true,
+            "name": "pillows"
+        },
+        {
+            "name": "plane001"
+        },
+        {
+            "name": "plane002"
+        },
+        {
+            "isolateShadows": true,
+            "name": "s1"
+        },
+        {
+            "isolateShadows": true,
+            "name": "s2"
+        },
+        {
+            "name": "s3"
+        },
+        {
+            "isolateShadows": true,
+            "name": "sofa-013",
+            "overriddenMaterialId": 44
+        },
+        {
+            "isolateShadows": true,
+            "name": "sofa-015"
+        },
+        {
+            "name": "windows_003"
+        },
+        {
+            "name": "windows_004"
+        },
+        {
+            "name": "{A_www.jjkjnet.com-s-162023-12-06_814208}dz01093"
+        },
+        {
+            "name": "{A_www.jjkjnet.com-s-162023-12-06_831553}dz01093"
+        },
+        {
+            "name": "{A_www.jjkjnet.com-s-162023-12-06_940943}dz01093"
+        },
+        {
+            "name": "{A_www.jjkjnet.com-s-162023-12-06_968670}dz01093"
+        },
+        {
+            "name": "{JianE_Mtl_20237181635386227}SM_Living021"
+        },
+        {
+            "name": "{JianE_Mtl_20237181635386229_1}SM_Living021"
+        },
+        {
+            "name": "{JianE_Mtl_20237181635386229_2}SM_Living021"
+        },
+        {
+            "name": "{JianE_Mtl_202434123913072_1}dz01051"
+        },
+        {
+            "name": "{JianE_Mtl_202434123913072_1}dz01053"
+        },
+        {
+            "name": "{JianE_Mtl_202434123913072_1}dz1099"
+        },
+        {
+            "name": "{JianE_Mtl_202434123913072_3}dz01051"
+        },
+        {
+            "name": "{JianE_Mtl_202434123913072_3}dz01053"
+        },
+        {
+            "name": "{JianE_Mtl_202434123913072_3}dz1099"
+        },
+        {
+            "name": "{Lilacstone}Object015"
+        },
+        {
+            "name": "{Lilacstone}Walls_01.004"
+        },
+        {
+            "name": "{Lilacstone}Walls_01.005"
+        },
+        {
+            "name": "{Lilacstone}Walls_01.008"
+        },
+        {
+            "name": "{Lilacstone}Walls_01.009"
+        },
+        {
+            "name": "{Petalarch}Object009",
+            "overriddenMaterialId": 29
+        },
+        {
+            "name": "{Petalarch}Object010",
+            "overriddenMaterialId": 29
+        },
+        {
+            "name": "{Petalarch}Object011",
+            "overriddenMaterialId": 29
+        },
+        {
+            "name": "{beige_lam}Object015"
+        },
+        {
+            "name": "{beige_lam}Walls_01.004"
+        },
+        {
+            "name": "{beige_lam}Walls_01.005"
+        },
+        {
+            "name": "{beige_lam}Walls_01.008"
+        },
+        {
+            "name": "{beige_lam}Walls_01.009"
+        },
+        {
+            "name": "{beige}Walls_01"
+        },
+        {
+            "name": "{blue}Walls_01"
+        },
+        {
+            "name": "{chrome}dz01062"
+        },
+        {
+            "name": "{front_dark}dz01063"
+        },
+        {
+            "name": "{glass}dz01062"
+        },
+        {
+            "name": "{led}dz01062"
+        },
+        {
+            "name": "{mat_metal_dark}dz01063"
+        },
+        {
+            "name": "{mat_metal}dz01062"
+        },
+        {
+            "name": "{moldings}windows_003"
+        },
+        {
+            "name": "{moldings}windows_004"
+        },
+        {
+            "name": "{monitor}dz01062"
+        },
+        {
+            "name": "{perfo_6}dz01062"
+        },
+        {
+            "name": "{pillow_01}pillows"
+        },
+        {
+            "name": "{pillow_02}pillows"
+        },
+        {
+            "name": "{sofa-001}Shape25"
+        },
+        {
+            "name": "{sofa-001}sofa-015"
+        },
+        {
+            "name": "{sofa_fab}Shape25",
+            "overriddenMaterialId": 44
+        },
+        {
+            "name": "{sofa_fab}sofa-015",
+            "overriddenMaterialId": 44
+        },
+        {
+            "name": "{sofafab_1}pillows"
+        },
+        {
+            "name": "{vray_Moooi_Heracleum Light}Moooi_Heracleum_Big_O"
+        },
+        {
+            "name": "{vray_Moooi_Heracleum_Stainless Steel}Moooi_Heracleum_Big_O"
+        },
+        {
+            "name": "{wall}Walls_01"
+        },
+        {
+            "name": "{white_lam}Object009"
+        },
+        {
+            "name": "{white_lam}Object010"
+        },
+        {
+            "name": "{white_lam}Object011"
+        },
+        {
+            "name": "{windowframe}windows_003"
+        },
+        {
+            "name": "{windowframe}windows_004"
+        },
+        {
+            "name": "{wood}dz01063"
+        },
+        {
+            "name": "\u5efaE_model_202312171957552136"
+        },
+        {
+            "isolateShadows": true,
+            "name": "\u5efaE_model_2023121719575521877"
+        },
+        {
+            "isolateShadows": true,
+            "lightmapResolution": 80,
+            "name": "\u5efaE_model_2023121719575521883",
+            "overriddenMaterialId": 44
+        },
+        {
+            "isolateShadows": true,
+            "name": "\u5efaE_model_2023121719575521986",
+            "overriddenMaterialId": 44
+        },
+        {
+            "isolateShadows": true,
+            "name": "\u5efaE_model_2023121719575521989",
+            "overriddenMaterialId": 44
+        },
+        {
+            "isolateShadows": true,
+            "name": "\u5efaE_model_2023121719575521992"
+        },
+        {
+            "isolateShadows": true,
+            "name": "\u5efaE_model_2023121719575521995"
+        }
+    ],
+    "nodes": [
+        {
+            "children": [
+                {
+                    "children": [],
+                    "config": "{windowframe}windows_004",
+                    "id": 0,
+                    "lightProbeIds": [
+                        2,
+                        0,
+                        3
+                    ],
+                    "mesh": true,
+                    "multiMeshItem": true,
+                    "originalFaceCnt": 176
+                },
+                {
+                    "children": [],
+                    "config": "{moldings}windows_004",
+                    "id": 1,
+                    "lightProbeIds": [
+                        2,
+                        0,
+                        3
+                    ],
+                    "mesh": true,
+                    "multiMeshItem": true,
+                    "originalFaceCnt": 380
+                }
+            ],
+            "config": "windows_004",
+            "id": 99
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "config": "{windowframe}windows_003",
+                    "id": 2,
+                    "lightProbeIds": [
+                        0,
+                        2,
+                        3
+                    ],
+                    "mesh": true,
+                    "multiMeshItem": true,
+                    "originalFaceCnt": 176
+                },
+                {
+                    "children": [],
+                    "config": "{moldings}windows_003",
+                    "id": 3,
+                    "lightProbeIds": [
+                        0,
+                        2,
+                        3
+                    ],
+                    "mesh": true,
+                    "multiMeshItem": true,
+                    "originalFaceCnt": 380
+                }
+            ],
+            "config": "windows_003",
+            "id": 100
+        },
+        {
+            "children": [],
+            "config": "SM_Living003",
+            "id": 4,
+            "lightProbeIds": [
+                0,
+                2,
+                3
+            ],
+            "mesh": true,
+            "originalFaceCnt": 6
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "config": "{JianE_Mtl_20237181635386229_1}SM_Living021",
+                    "id": 5,
+                    "lightProbeIds": [
+                        0
+                    ],
+                    "mesh": true,
+                    "multiMeshItem": true,
+                    "originalFaceCnt": 1600
+                },
+                {
+                    "children": [],
+                    "config": "{JianE_Mtl_20237181635386229_2}SM_Living021",
+                    "id": 6,
+                    "lightProbeIds": [
+                        2,
+                        3,
+                        0
+                    ],
+                    "mesh": true,
+                    "multiMeshItem": true,
+                    "originalFaceCnt": 8585
+                },
+                {
+                    "children": [],
+                    "config": "{JianE_Mtl_20237181635386227}SM_Living021",
+                    "id": 7,
+                    "lightProbeIds": [
+                        2,
+                        3,
+                        0
+                    ],
+                    "mesh": true,
+                    "multiMeshItem": true,
+                    "originalFaceCnt": 1468
+                }
+            ],
+            "config": "SM_Living021",
+            "id": 101
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "config": "dz01061",
+                    "id": 8,
+                    "lightProbeIds": [
+                        2,
+                        0,
+                        3
+                    ],
+                    "mesh": true,
+                    "originalFaceCnt": 1306
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "config": "{mat_metal}dz01062",
+                            "id": 9,
+                            "lightProbeIds": [
+                                2,
+                                0
+                            ],
+                            "mesh": true,
+                            "multiMeshItem": true,
+                            "originalFaceCnt": 52608
+                        },
+                        {
+                            "children": [],
+                            "config": "{chrome}dz01062",
+                            "id": 10,
+                            "lightProbeIds": [
+                                0
+                            ],
+                            "mesh": true,
+                            "multiMeshItem": true,
+                            "originalFaceCnt": 32000
+                        },
+                        {
+                            "children": [],
+                            "config": "{monitor}dz01062",
+                            "id": 11,
+                            "lightProbeIds": [
+                                2,
+                                0,
+                                3
+                            ],
+                            "mesh": true,
+                            "multiMeshItem": true,
+                            "originalFaceCnt": 11520
+                        },
+                        {
+                            "children": [],
+                            "config": "{led}dz01062",
+                            "id": 12,
+                            "lightProbeIds": [
+                                2,
+                                0,
+                                3
+                            ],
+                            "mesh": true,
+                            "multiMeshItem": true,
+                            "originalFaceCnt": 1920
+                        },
+                        {
+                            "children": [],
+                            "config": "{glass}dz01062",
+                            "id": 13,
+                            "lightProbeIds": [
+                                0
+                            ],
+                            "mesh": true,
+                            "multiMeshItem": true,
+                            "originalFaceCnt": 1368
+                        },
+                        {
+                            "children": [],
+                            "config": "{perfo_6}dz01062",
+                            "id": 14,
+                            "lightProbeIds": [
+                                2,
+                                0,
+                                3
+                            ],
+                            "mesh": true,
+                            "multiMeshItem": true,
+                            "originalFaceCnt": 8
+                        }
+                    ],
+                    "config": "dz01062",
+                    "id": 102
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "config": "{wood}dz01063",
+                            "id": 15,
+                            "lightProbeIds": [
+                                2,
+                                0,
+                                3
+                            ],
+                            "mesh": true,
+                            "multiMeshItem": true,
+                            "originalFaceCnt": 4310
+                        },
+                        {
+                            "children": [],
+                            "config": "{front_dark}dz01063",
+                            "id": 16,
+                            "lightProbeIds": [
+                                0
+                            ],
+                            "mesh": true,
+                            "multiMeshItem": true,
+                            "originalFaceCnt": 2232
+                        },
+                        {
+                            "children": [],
+                            "config": "{mat_metal_dark}dz01063",
+                            "id": 17,
+                            "lightProbeIds": [
+                                2,
+                                0,
+                                3
+                            ],
+                            "mesh": true,
+                            "multiMeshItem": true,
+                            "originalFaceCnt": 1024
+                        }
+                    ],
+                    "config": "dz01063",
+                    "id": 103
+                }
+            ],
+            "config": "dz01060",
+            "id": 104
+        },
+        {
+            "children": [],
+            "config": "dz01095",
+            "id": 18,
+            "lightProbeIds": [
+                2,
+                3,
+                0
+            ],
+            "mesh": true,
+            "originalFaceCnt": 3944
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "config": "{A_www.jjkjnet.com-s-162023-12-06_831553}dz01093",
+                    "id": 19,
+                    "lightProbeIds": [
+                        3,
+                        2,
+                        0
+                    ],
+                    "mesh": true,
+                    "multiMeshItem": true,
+                    "originalFaceCnt": 7616
+                },
+                {
+                    "children": [],
+                    "config": "{A_www.jjkjnet.com-s-162023-12-06_814208}dz01093",
+                    "id": 20,
+                    "lightProbeIds": [
+                        3,
+                        2,
+                        0
+                    ],
+                    "mesh": true,
+                    "multiMeshItem": true,
+                    "originalFaceCnt": 8
+                },
+                {
+                    "children": [],
+                    "config": "{A_www.jjkjnet.com-s-162023-12-06_968670}dz01093",
+                    "id": 21,
+                    "lightProbeIds": [
+                        3,
+                        2,
+                        0
+                    ],
+                    "mesh": true,
+                    "multiMeshItem": true,
+                    "originalFaceCnt": 10524
+                },
+                {
+                    "children": [],
+                    "config": "{A_www.jjkjnet.com-s-162023-12-06_940943}dz01093",
+                    "id": 22,
+                    "lightProbeIds": [
+                        3,
+                        2,
+                        0
+                    ],
+                    "mesh": true,
+                    "multiMeshItem": true,
+                    "originalFaceCnt": 10472
+                }
+            ],
+            "config": "dz01093",
+            "id": 105
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "config": "{JianE_Mtl_202434123913072_3}dz01051",
+                    "id": 23,
+                    "lightProbeIds": [
+                        3,
+                        2,
+                        0
+                    ],
+                    "mesh": true,
+                    "multiMeshItem": true,
+                    "originalFaceCnt": 1368
+                },
+                {
+                    "children": [],
+                    "config": "{JianE_Mtl_202434123913072_1}dz01051",
+                    "id": 24,
+                    "lightProbeIds": [
+                        3,
+                        2,
+                        0
+                    ],
+                    "mesh": true,
+                    "multiMeshItem": true,
+                    "originalFaceCnt": 76
+                }
+            ],
+            "config": "dz01051",
+            "id": 106
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "config": "{JianE_Mtl_202434123913072_1}dz01053",
+                    "id": 25,
+                    "lightProbeIds": [
+                        3,
+                        2,
+                        0
+                    ],
+                    "mesh": true,
+                    "multiMeshItem": true,
+                    "originalFaceCnt": 76
+                },
+                {
+                    "children": [],
+                    "config": "{JianE_Mtl_202434123913072_3}dz01053",
+                    "id": 26,
+                    "lightProbeIds": [
+                        3,
+                        2,
+                        0
+                    ],
+                    "mesh": true,
+                    "multiMeshItem": true,
+                    "originalFaceCnt": 1368
+                }
+            ],
+            "config": "dz01053",
+            "id": 107
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "config": "{JianE_Mtl_202434123913072_1}dz1099",
+                    "id": 27,
+                    "lightProbeIds": [
+                        3,
+                        2,
+                        0
+                    ],
+                    "mesh": true,
+                    "multiMeshItem": true,
+                    "originalFaceCnt": 76
+                },
+                {
+                    "children": [],
+                    "config": "{JianE_Mtl_202434123913072_3}dz1099",
+                    "id": 28,
+                    "lightProbeIds": [
+                        2,
+                        0
+                    ],
+                    "mesh": true,
+                    "multiMeshItem": true,
+                    "originalFaceCnt": 1368
+                }
+            ],
+            "config": "dz1099",
+            "id": 108
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "config": "{wall}Walls_01",
+                    "id": 29,
+                    "lightProbeIds": [
+                        0,
+                        2,
+                        3
+                    ],
+                    "mesh": true,
+                    "multiMeshItem": true,
+                    "originalFaceCnt": 124
+                },
+                {
+                    "children": [],
+                    "config": "{blue}Walls_01",
+                    "id": 30,
+                    "lightProbeIds": [
+                        0,
+                        2,
+                        3
+                    ],
+                    "mesh": true,
+                    "multiMeshItem": true,
+                    "originalFaceCnt": 16
+                },
+                {
+                    "children": [],
+                    "config": "{beige}Walls_01",
+                    "id": 31,
+                    "lightProbeIds": [
+                        2,
+                        3,
+                        0
+                    ],
+                    "mesh": true,
+                    "multiMeshItem": true,
+                    "originalFaceCnt": 4
+                }
+            ],
+            "config": "Walls_01",
+            "id": 109
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "config": "{Lilacstone}Walls_01.005",
+                    "id": 32,
+                    "lightProbeIds": [
+                        2,
+                        0,
+                        3
+                    ],
+                    "mesh": true,
+                    "multiMeshItem": true,
+                    "originalFaceCnt": 2
+                },
+                {
+                    "children": [],
+                    "config": "{beige_lam}Walls_01.005",
+                    "id": 33,
+                    "lightProbeIds": [
+                        2,
+                        0,
+                        3
+                    ],
+                    "mesh": true,
+                    "multiMeshItem": true,
+                    "originalFaceCnt": 112
+                }
+            ],
+            "config": "Walls_01.005",
+            "id": 110
+        },
+        {
+            "children": [],
+            "config": "Walls_01.007",
+            "id": 34,
+            "lightProbeIds": [
+                0,
+                2,
+                3
+            ],
+            "mesh": true,
+            "originalFaceCnt": 74
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "config": "{Petalarch}Object009",
+                    "id": 35,
+                    "lightProbeIds": [
+                        0,
+                        2,
+                        3
+                    ],
+                    "mesh": true,
+                    "multiMeshItem": true,
+                    "originalFaceCnt": 10
+                },
+                {
+                    "children": [],
+                    "config": "{white_lam}Object009",
+                    "id": 36,
+                    "lightProbeIds": [
+                        0,
+                        2,
+                        3
+                    ],
+                    "mesh": true,
+                    "multiMeshItem": true,
+                    "originalFaceCnt": 112
+                }
+            ],
+            "config": "Object009",
+            "id": 111
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "config": "{Petalarch}Object010",
+                    "id": 37,
+                    "lightProbeIds": [
+                        0,
+                        2,
+                        3
+                    ],
+                    "mesh": true,
+                    "multiMeshItem": true,
+                    "originalFaceCnt": 10
+                },
+                {
+                    "children": [],
+                    "config": "{white_lam}Object010",
+                    "id": 38,
+                    "lightProbeIds": [
+                        0,
+                        2,
+                        3
+                    ],
+                    "mesh": true,
+                    "multiMeshItem": true,
+                    "originalFaceCnt": 112
+                }
+            ],
+            "config": "Object010",
+            "id": 112
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "config": "{Petalarch}Object011",
+                    "id": 39,
+                    "lightProbeIds": [
+                        0,
+                        3,
+                        2
+                    ],
+                    "mesh": true,
+                    "multiMeshItem": true,
+                    "originalFaceCnt": 10
+                },
+                {
+                    "children": [],
+                    "config": "{white_lam}Object011",
+                    "id": 40,
+                    "lightProbeIds": [
+                        0,
+                        3,
+                        2
+                    ],
+                    "mesh": true,
+                    "multiMeshItem": true,
+                    "originalFaceCnt": 112
+                }
+            ],
+            "config": "Object011",
+            "id": 113
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "config": "{beige_lam}Walls_01.004",
+                    "id": 41,
+                    "lightProbeIds": [
+                        2,
+                        3,
+                        0
+                    ],
+                    "mesh": true,
+                    "multiMeshItem": true,
+                    "originalFaceCnt": 896
+                },
+                {
+                    "children": [],
+                    "config": "{Lilacstone}Walls_01.004",
+                    "id": 42,
+                    "lightProbeIds": [
+                        2,
+                        3,
+                        0
+                    ],
+                    "mesh": true,
+                    "multiMeshItem": true,
+                    "originalFaceCnt": 30
+                }
+            ],
+            "config": "Walls_01.004",
+            "id": 114
+        },
+        {
+            "children": [],
+            "config": "Object013",
+            "id": 43,
+            "lightProbeIds": [
+                2,
+                3,
+                0
+            ],
+            "mesh": true,
+            "originalFaceCnt": 112
+        },
+        {
+            "children": [],
+            "config": "Object014",
+            "id": 44,
+            "lightProbeIds": [
+                2,
+                3,
+                0
+            ],
+            "mesh": true,
+            "originalFaceCnt": 48
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "config": "{Lilacstone}Object015",
+                    "id": 45,
+                    "lightProbeIds": [
+                        3,
+                        2,
+                        0
+                    ],
+                    "mesh": true,
+                    "multiMeshItem": true,
+                    "originalFaceCnt": 2
+                },
+                {
+                    "children": [],
+                    "config": "{beige_lam}Object015",
+                    "id": 46,
+                    "lightProbeIds": [
+                        3,
+                        2,
+                        0
+                    ],
+                    "mesh": true,
+                    "multiMeshItem": true,
+                    "originalFaceCnt": 112
+                }
+            ],
+            "config": "Object015",
+            "id": 115
+        },
+        {
+            "children": [],
+            "config": "cornice",
+            "id": 47,
+            "lightProbeIds": [
+                0,
+                2,
+                3
+            ],
+            "mesh": true,
+            "originalFaceCnt": 8736
+        },
+        {
+            "children": [],
+            "config": "cornice001",
+            "id": 48,
+            "lightProbeIds": [
+                2,
+                0
+            ],
+            "mesh": true,
+            "originalFaceCnt": 8736
+        },
+        {
+            "children": [],
+            "config": "Object016",
+            "id": 49,
+            "lightProbeIds": [
+                3,
+                0,
+                2
+            ],
+            "mesh": true,
+            "originalFaceCnt": 112
+        },
+        {
+            "children": [],
+            "config": "Object017",
+            "id": 50,
+            "lightProbeIds": [
+                2,
+                0,
+                3
+            ],
+            "mesh": true,
+            "originalFaceCnt": 112
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "config": "{beige_lam}Walls_01.008",
+                    "id": 51,
+                    "lightProbeIds": [
+                        3,
+                        0,
+                        2
+                    ],
+                    "mesh": true,
+                    "multiMeshItem": true,
+                    "originalFaceCnt": 896
+                },
+                {
+                    "children": [],
+                    "config": "{Lilacstone}Walls_01.008",
+                    "id": 52,
+                    "lightProbeIds": [
+                        3,
+                        0,
+                        2
+                    ],
+                    "mesh": true,
+                    "multiMeshItem": true,
+                    "originalFaceCnt": 30
+                }
+            ],
+            "config": "Walls_01.008",
+            "id": 116
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "config": "{beige_lam}Walls_01.009",
+                    "id": 53,
+                    "lightProbeIds": [
+                        2,
+                        0,
+                        3
+                    ],
+                    "mesh": true,
+                    "multiMeshItem": true,
+                    "originalFaceCnt": 896
+                },
+                {
+                    "children": [],
+                    "config": "{Lilacstone}Walls_01.009",
+                    "id": 54,
+                    "lightProbeIds": [
+                        2,
+                        0,
+                        3
+                    ],
+                    "mesh": true,
+                    "multiMeshItem": true,
+                    "originalFaceCnt": 30
+                }
+            ],
+            "config": "Walls_01.009",
+            "id": 117
+        },
+        {
+            "children": [],
+            "config": "SM_A14_000",
+            "id": 55,
+            "lightProbeIds": [
+                3,
+                0,
+                2
+            ],
+            "mesh": true,
+            "originalFaceCnt": 164
+        },
+        {
+            "children": [],
+            "config": "SM_A14_001",
+            "id": 56,
+            "lightProbeIds": [
+                0,
+                2,
+                3
+            ],
+            "mesh": true,
+            "originalFaceCnt": 164
+        },
+        {
+            "children": [],
+            "config": "SM_A14_002",
+            "id": 57,
+            "lightProbeIds": [
+                0,
+                2,
+                3
+            ],
+            "mesh": true,
+            "originalFaceCnt": 164
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "config": "{vray_Moooi_Heracleum Light}Moooi_Heracleum_Big_O",
+                    "id": 58,
+                    "lightProbeIds": [
+                        0,
+                        2,
+                        3
+                    ],
+                    "mesh": true,
+                    "multiMeshItem": true,
+                    "originalFaceCnt": 86184
+                },
+                {
+                    "children": [],
+                    "config": "{vray_Moooi_Heracleum_Stainless Steel}Moooi_Heracleum_Big_O",
+                    "id": 59,
+                    "lightProbeIds": [
+                        0,
+                        2,
+                        3
+                    ],
+                    "mesh": true,
+                    "multiMeshItem": true,
+                    "originalFaceCnt": 22232
+                }
+            ],
+            "config": "Moooi_Heracleum_Big_O",
+            "id": 118
+        },
+        {
+            "children": [],
+            "config": "SM_A14_003",
+            "id": 60,
+            "lightProbeIds": [
+                2,
+                3,
+                0
+            ],
+            "mesh": true,
+            "originalFaceCnt": 164
+        },
+        {
+            "children": [],
+            "config": "\u5efaE_model_202312171957552136",
+            "id": 61,
+            "lightProbeIds": [
+                2,
+                0,
+                3
+            ],
+            "mesh": true,
+            "originalFaceCnt": 1
+        },
+        {
+            "children": [],
+            "config": "SM_Living004",
+            "id": 62,
+            "lightProbeIds": [
+                0,
+                2,
+                3
+            ],
+            "mesh": true,
+            "originalFaceCnt": 2
+        },
+        {
+            "children": [],
+            "config": "Box030",
+            "id": 63,
+            "lightProbeIds": [
+                0,
+                2,
+                3
+            ],
+            "mesh": true,
+            "originalFaceCnt": 12
+        },
+        {
+            "children": [],
+            "config": "Box031",
+            "id": 64,
+            "lightProbeIds": [
+                0,
+                2,
+                3
+            ],
+            "mesh": true,
+            "originalFaceCnt": 12
+        },
+        {
+            "children": [],
+            "config": "Box032",
+            "id": 65,
+            "lightProbeIds": [
+                2,
+                3,
+                0
+            ],
+            "mesh": true,
+            "originalFaceCnt": 12
+        },
+        {
+            "children": [],
+            "config": "Box033",
+            "id": 66,
+            "lightProbeIds": [
+                2,
+                3,
+                0
+            ],
+            "mesh": true,
+            "originalFaceCnt": 12
+        },
+        {
+            "children": [],
+            "config": "Box034",
+            "id": 67,
+            "lightProbeIds": [
+                2,
+                3,
+                0
+            ],
+            "mesh": true,
+            "originalFaceCnt": 12
+        },
+        {
+            "children": [],
+            "config": "Box035",
+            "id": 68,
+            "lightProbeIds": [
+                2,
+                3,
+                0
+            ],
+            "mesh": true,
+            "originalFaceCnt": 12
+        },
+        {
+            "children": [],
+            "config": "Box036",
+            "id": 69,
+            "lightProbeIds": [
+                2,
+                3,
+                0
+            ],
+            "mesh": true,
+            "originalFaceCnt": 12
+        },
+        {
+            "children": [],
+            "config": "Box037",
+            "id": 70,
+            "lightProbeIds": [
+                2,
+                3,
+                0
+            ],
+            "mesh": true,
+            "originalFaceCnt": 12
+        },
+        {
+            "children": [],
+            "config": "Box038",
+            "id": 71,
+            "lightProbeIds": [
+                2,
+                3,
+                0
+            ],
+            "mesh": true,
+            "originalFaceCnt": 12
+        },
+        {
+            "children": [],
+            "config": "curtain159",
+            "id": 72,
+            "lightProbeIds": [
+                0,
+                2,
+                3
+            ],
+            "mesh": true,
+            "originalFaceCnt": 46500
+        },
+        {
+            "children": [],
+            "config": "curtain160",
+            "id": 73,
+            "lightProbeIds": [
+                2,
+                0,
+                3
+            ],
+            "mesh": true,
+            "originalFaceCnt": 46500
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "config": "pillow-sit010",
+                    "id": 74,
+                    "lightProbeIds": [
+                        0,
+                        2,
+                        3
+                    ],
+                    "mesh": true,
+                    "originalFaceCnt": 48968
+                },
+                {
+                    "children": [],
+                    "config": "pillow-sit06",
+                    "id": 75,
+                    "lightProbeIds": [
+                        0,
+                        2,
+                        3
+                    ],
+                    "mesh": true,
+                    "originalFaceCnt": 48968
+                },
+                {
+                    "children": [],
+                    "config": "pillow-sit09",
+                    "id": 76,
+                    "lightProbeIds": [
+                        0,
+                        3,
+                        2
+                    ],
+                    "mesh": true,
+                    "originalFaceCnt": 48968
+                },
+                {
+                    "children": [],
+                    "config": "Object01",
+                    "id": 77,
+                    "lightProbeIds": [
+                        0,
+                        3,
+                        2
+                    ],
+                    "mesh": true,
+                    "originalFaceCnt": 33816
+                },
+                {
+                    "children": [],
+                    "config": "Object07",
+                    "id": 78,
+                    "lightProbeIds": [
+                        0,
+                        2,
+                        3
+                    ],
+                    "mesh": true,
+                    "originalFaceCnt": 33932
+                },
+                {
+                    "children": [],
+                    "config": "Object008",
+                    "id": 79,
+                    "lightProbeIds": [
+                        0,
+                        2,
+                        3
+                    ],
+                    "mesh": true,
+                    "originalFaceCnt": 33932
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "config": "{sofa_fab}Shape25",
+                            "id": 80,
+                            "lightProbeIds": [
+                                0,
+                                3
+                            ],
+                            "mesh": true,
+                            "multiMeshItem": true,
+                            "originalFaceCnt": 70844
+                        },
+                        {
+                            "children": [],
+                            "config": "{sofa-001}Shape25",
+                            "id": 81,
+                            "lightProbeIds": [
+                                0,
+                                2,
+                                3
+                            ],
+                            "mesh": true,
+                            "multiMeshItem": true,
+                            "originalFaceCnt": 13536
+                        }
+                    ],
+                    "config": "Shape25",
+                    "id": 119
+                },
+                {
+                    "children": [],
+                    "config": "plane001",
+                    "id": 82,
+                    "lightProbeIds": [
+                        0,
+                        2,
+                        3
+                    ],
+                    "mesh": true,
+                    "originalFaceCnt": 3236
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "config": "{pillow_02}pillows",
+                            "id": 83,
+                            "lightProbeIds": [
+                                0,
+                                3,
+                                2
+                            ],
+                            "mesh": true,
+                            "multiMeshItem": true,
+                            "originalFaceCnt": 26176
+                        },
+                        {
+                            "children": [],
+                            "config": "{pillow_01}pillows",
+                            "id": 84,
+                            "lightProbeIds": [
+                                0,
+                                2,
+                                3
+                            ],
+                            "mesh": true,
+                            "multiMeshItem": true,
+                            "originalFaceCnt": 65184
+                        },
+                        {
+                            "children": [],
+                            "config": "{sofafab_1}pillows",
+                            "id": 85,
+                            "lightProbeIds": [
+                                0
+                            ],
+                            "mesh": true,
+                            "multiMeshItem": true,
+                            "originalFaceCnt": 18944
+                        }
+                    ],
+                    "config": "pillows",
+                    "id": 120
+                }
+            ],
+            "config": "s1",
+            "id": 121
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "config": "Object018",
+                    "id": 86,
+                    "lightProbeIds": [
+                        0,
+                        2,
+                        3
+                    ],
+                    "mesh": true,
+                    "originalFaceCnt": 9024
+                },
+                {
+                    "children": [],
+                    "config": "sofa-013",
+                    "id": 87,
+                    "lightProbeIds": [
+                        0,
+                        2,
+                        3
+                    ],
+                    "mesh": true,
+                    "originalFaceCnt": 6272
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "config": "{sofa-001}sofa-015",
+                            "id": 88,
+                            "lightProbeIds": [
+                                0,
+                                2,
+                                3
+                            ],
+                            "mesh": true,
+                            "multiMeshItem": true,
+                            "originalFaceCnt": 9792
+                        },
+                        {
+                            "children": [],
+                            "config": "{sofa_fab}sofa-015",
+                            "id": 89,
+                            "lightProbeIds": [
+                                0,
+                                2,
+                                3
+                            ],
+                            "mesh": true,
+                            "multiMeshItem": true,
+                            "originalFaceCnt": 7808
+                        }
+                    ],
+                    "config": "sofa-015",
+                    "id": 122
+                },
+                {
+                    "children": [],
+                    "config": "Object020",
+                    "id": 90,
+                    "lightProbeIds": [
+                        0,
+                        2,
+                        3
+                    ],
+                    "mesh": true,
+                    "originalFaceCnt": 14208
+                },
+                {
+                    "children": [],
+                    "config": "plane002",
+                    "id": 91,
+                    "lightProbeIds": [
+                        0,
+                        2,
+                        3
+                    ],
+                    "mesh": true,
+                    "originalFaceCnt": 3236
+                }
+            ],
+            "config": "s2",
+            "id": 123
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "config": "\u5efaE_model_2023121719575521877",
+                    "id": 92,
+                    "lightProbeIds": [
+                        0
+                    ],
+                    "mesh": true,
+                    "originalFaceCnt": 32688
+                },
+                {
+                    "children": [],
+                    "config": "\u5efaE_model_2023121719575521992",
+                    "id": 93,
+                    "lightProbeIds": [
+                        0,
+                        2,
+                        3
+                    ],
+                    "mesh": true,
+                    "originalFaceCnt": 4924
+                },
+                {
+                    "children": [],
+                    "config": "\u5efaE_model_2023121719575521995",
+                    "id": 94,
+                    "lightProbeIds": [
+                        0,
+                        2,
+                        3
+                    ],
+                    "mesh": true,
+                    "originalFaceCnt": 32688
+                },
+                {
+                    "children": [],
+                    "config": "Plane003",
+                    "id": 95,
+                    "lightProbeIds": [
+                        0,
+                        2,
+                        3
+                    ],
+                    "mesh": true,
+                    "originalFaceCnt": 2
+                },
+                {
+                    "children": [],
+                    "config": "\u5efaE_model_2023121719575521883",
+                    "id": 96,
+                    "lightProbeIds": [
+                        0,
+                        2,
+                        3
+                    ],
+                    "mesh": true,
+                    "originalFaceCnt": 19776
+                },
+                {
+                    "children": [],
+                    "config": "\u5efaE_model_2023121719575521986",
+                    "id": 97,
+                    "lightProbeIds": [
+                        2
+                    ],
+                    "mesh": true,
+                    "originalFaceCnt": 6048
+                },
+                {
+                    "children": [],
+                    "config": "\u5efaE_model_2023121719575521989",
+                    "id": 98,
+                    "lightProbeIds": [
+                        0,
+                        2,
+                        3
+                    ],
+                    "mesh": true,
+                    "originalFaceCnt": 6048
+                }
+            ],
+            "config": "s3",
+            "id": 124
+        }
+    ],
+    "skies": [
+        {
+            "name": "sky0",
+            "texture": {
+                "alpha": true,
+                "id": "skies/limpopo_golf_course_4k",
+                "name": "limpopo_golf_course_4k",
+                "rawExt": "hdr",
+                "rgbm": true,
+                "stdExt": "png",
+                "webFormats": [
+                    "small/std",
+                    "small/basis",
+                    "large/basis"
+                ]
+            },
+            "type": "equirect",
+            "yawRotation": 0
+        }
+    ],
+    "views": [
+        {
+            "hideFromMenu": false,
+            "id": 4,
+            "maxDistance": 100,
+            "maxSideAngle": 3.141592653589793,
+            "maxUpAngle": 1.5707963267948966,
+            "minDistance": 1,
+            "minSideAngle": -3.141592653589793,
+            "minUpAngle": -1.5707963267948966,
+            "mode": "fps",
+            "name": "Console",
+            "noPan": false,
+            "position": [
+                -0.9048390061646524,
+                0.9735143376879324,
+                1.3608266822861796
+            ],
+            "rotation": [
+                -89.9375183014572,
+                -0.09078001304682566
+            ],
+            "sky": "sky0"
+        },
+        {
+            "hideFromMenu": false,
+            "id": 6,
+            "maxDistance": 100,
+            "maxSideAngle": 3.141592653589793,
+            "maxUpAngle": 1.5707963267948966,
+            "minDistance": 1,
+            "minSideAngle": -3.141592653589793,
+            "minUpAngle": -1.5707963267948966,
+            "mode": "fps",
+            "name": "Sofa",
+            "noPan": false,
+            "position": [
+                3.46568362289133,
+                0.8949788509888719,
+                1.120713122884241
+            ],
+            "rotation": [
+                89.00296107966494,
+                0.024021160685563616
+            ],
+            "sky": "sky0"
+        }
+    ]
+}

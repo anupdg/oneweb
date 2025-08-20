@@ -39,7 +39,7 @@
         APPLY_MATERIAL : '22D78DEB-39B2-4DB4-A560-5B0C143B02F8',
         READY_FOR_EDITABLE: '11AC52C9-D395-4B50-A0BE-B8F993218F8A',
         ANCHORS_FROM_MENU: 'B615910B-0253-4334-B7FD-B9CFCFD3E155',
-        CUSTOM_SOFA_TEXTURE: '9BFBEC93-95BA-4CC4-996B-EB889F5C0E7C'
+        CUSTOM_TEXTURE: '9BFBEC93-95BA-4CC4-996B-EB889F5C0E7C'
       }
     }
 
@@ -73,9 +73,9 @@
       console.log('Sending anchors', anchors);
       this.postMessage({ type: this.messages.ANCHORS_FROM_MENU, anchors });  
     }
-    sendSofaTexture(url, node) {
-      console.log("Sending custom sofa texture", url, node);
-      this.postMessage({type: this.messages.CUSTOM_SOFA_TEXTURE, url, node});
+    sendTexture(url, node, materialName) {
+      console.log("Sending custom texture", url, node);
+      this.postMessage({type: this.messages.CUSTOM_TEXTURE, url, node, materialName});
     }
   }
 
@@ -289,7 +289,8 @@
               materials: materialObjs,
               view: this.viewMap[ext.name],
               meshes: this.meshMap[ext.name] || [],
-              defaultNode : findDefault()
+              defaultNode : findDefault(),
+              defaultMaterial: ext.toReplace 
             };
           }
         });
@@ -373,10 +374,12 @@
 
     onMaterialSelected(item) {
       console.log("Material selected:", item);
+      const nodeInfo = this.nodes[this.selectedOption];
       this.nodes[this.selectedOption].selectedMaterial = item.name;
       const node = this.nodes[this.selectedOption].selectedNode;
-        console.log(this.selectedOption, "sele")
-        this.sceneController.applyMaterial(node, item.name);
+        // console.log(this.selectedOption, "sele")
+        // this.sceneController.applyMaterial(node, item.name);
+      this.sceneController.sendTexture(item.url, node, nodeInfo.defaultMaterial);
     }
   }
 

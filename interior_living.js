@@ -182,9 +182,9 @@
           { "name": "{Lilacstone}Walls_01.004", "default": true }
         ],
         "sofa": [
-          { "name": "{sofa_fab}Shape25", "default": true },
-          { "name": "s2", "default": false },
-          { "name": "s3", "default": false },
+          { "name": "{sofa_fab}Shape25", "default": true,  "url": "https://img.freepik.com/free-psd/midcentury-modern-grey-sofa-with-wooden-frame_632498-25556.jpg?w=740" },
+          { "name": "s2", "url": "https://img.freepik.com/free-psd/teal-velvet-sofa-with-gold-accents-elegant-modern-living-room-furniture_191095-80919.jpg?w=740" },
+          { "name": "s3", "url": "https://img.freepik.com/free-psd/modern-wooden-sofa-with-natureinspired-design_191095-83780.jpg?w=740" },
         ],
         "rug": [
           { "name": "SM_Living004", "default": true }
@@ -203,6 +203,7 @@
         "panel2": "panel2",
         "rug": "rug",
         "sofa": "sofa",
+        "1" : "sofa"
       };
        this.imageUrl = this.customSofaMaterialUrl;
 

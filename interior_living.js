@@ -207,6 +207,13 @@
       };
        this.imageUrl = this.customSofaMaterialUrl;
 
+      this.labelMap = {
+        "panel1": "Panel 1",
+        "panel2": "Panel 2",
+        "rug": "Rug",
+        "sofa": "Sofa"
+      };
+
     }
 
     async init() {
@@ -307,7 +314,7 @@
       Object.keys(this.nodes).forEach((name) => {
         const opt = document.createElement("option");
         opt.value = name;
-        opt.textContent = name;
+        opt.textContent = this.labelMap[name] || name; 
         this.elementSelector.appendChild(opt);
       });
 

@@ -421,7 +421,7 @@ class App {
 
   async loadCoverJson() {
     try {
-      const res = await fetch("{{ 'interior_living_cover.json' | asset_url }}");
+      const res = await fetch("interior_living_cover.json");
       const data = await res.json();
 
       this.anchorsFromMenu = data.extensions
@@ -586,6 +586,222 @@ class App {
   }
 }
 
+
 // Bootstrap
 const app = new App();
 app.init();
+
+// --- AI Generator Popup Integration (improved) ---
+document.addEventListener("DOMContentLoaded", () => {
+  const API_BASE = "http://127.0.0.1:8000"; // <-- use your deployed URL in prod
+
+  const openBtn = document.getElementById("open-ai-popup");
+  const popup = document.getElementById("ai-popup");
+  const popupContent = popup ? popup.querySelector(".ai-popup-content") : null;
+  const closeBtn = document.getElementById("ai-close");
+
+  const captureBtn = document.getElementById("capture-scene");
+  const referencePreview = document.getElementById("reference-preview");
+  const targetInput = document.getElementById("target-upload");
+  const promptInput = document.getElementById("ai-prompt");
+  const generateBtn = document.getElementById("generate-btn");
+  const downloadBtn = document.getElementById("download-btn");
+  const originalImg = document.getElementById("original-img");
+  const generatedImg = document.getElementById("generated-img");
+  const toggle = document.getElementById("toggle-original");
+  const statusEl = document.getElementById("ai-status");
+
+  function openPopup() {
+    if (!popup) return;
+    popup.classList.remove("hidden");
+    popup.setAttribute("aria-hidden", "false");
+    document.body.classList.add("modal-open");
+  }
+  function closePopup() {
+    if (!popup) return;
+    popup.classList.add("hidden");
+    popup.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("modal-open");
+  }
+
+  if (openBtn) openBtn.addEventListener("click", openPopup);
+  if (closeBtn) closeBtn.addEventListener("click", closePopup);
+
+  // close when clicking overlay (outside the content)
+  if (popup) {
+    popup.addEventListener("click", (e) => {
+      if (e.target === popup) closePopup();
+    });
+  }
+  // close on Escape
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") closePopup();
+  });
+
+  // --- captureImage message -> ask shapespark iframe to capture and respond with dataURL
+  async function captureSceneScreenshot(timeoutMs = 15000) {
+    const iframe = document.getElementById("video-frame");
+    if (!iframe || !iframe.contentWindow) throw new Error("Shapespark iframe not found");
+
+    return new Promise((resolve, reject) => {
+      const handler = (ev) => {
+        if (!ev.data) return;
+        if (ev.data.type === "CAPTURE_SCENE_RESULT") {
+          window.removeEventListener("message", handler);
+          clearTimeout(timer);
+          resolve(ev.data.image);
+        } else if (ev.data.type === "CAPTURE_SCENE_ERROR") {
+          window.removeEventListener("message", handler);
+          clearTimeout(timer);
+          reject(new Error(ev.data.message || "Capture failed"));
+        }
+      };
+      window.addEventListener("message", handler);
+
+      // timeout fallback
+      const timer = setTimeout(() => {
+        window.removeEventListener("message", handler);
+        reject(new Error("Capture timed out"));
+      }, timeoutMs);
+
+      // request Shapespark to capture (Shapespark script must implement this)
+      try {
+        iframe.contentWindow.postMessage({ type: "CAPTURE_SCENE" }, "*");
+      } catch (err) {
+        clearTimeout(timer);
+        window.removeEventListener("message", handler);
+        reject(err);
+      }
+    });
+  }
+
+  function dataURLToFile(dataUrl, filename = "reference.jpg") {
+    const arr = dataUrl.split(',');
+    const mimeMatch = arr[0].match(/:(.*?);/);
+    const mime = mimeMatch ? mimeMatch[1] : 'image/jpeg';
+    const bstr = atob(arr[1]);
+    let n = bstr.length;
+    const u8arr = new Uint8Array(n);
+    while (n--) u8arr[n] = bstr.charCodeAt(n);
+    return new File([u8arr], filename, { type: mime });
+  }
+
+  // helper to show spinner & disable generate button
+  async function setGeneratingState(on) {
+    if (!generateBtn) return;
+    if (on) {
+      generateBtn.disabled = true;
+      generateBtn.textContent = "Generating...";
+      if (!generateBtn.querySelector(".spinner")) {
+        const s = document.createElement("span");
+        s.className = "spinner";
+        generateBtn.appendChild(s);
+      }
+      if (statusEl) statusEl.textContent = "Generating image, please wait...";
+    } else {
+      generateBtn.disabled = false;
+      generateBtn.textContent = "Generate";
+      const s = generateBtn.querySelector(".spinner");
+      if (s) s.remove();
+      if (statusEl) statusEl.textContent = "";
+    }
+  }
+
+  // capture button -> get screenshot and preview
+  if (captureBtn) {
+    captureBtn.addEventListener("click", async () => {
+      try {
+        if (statusEl) statusEl.textContent = "Capturing scene…";
+        captureBtn.disabled = true;
+        const dataUrl = await captureSceneScreenshot();
+        const file = dataURLToFile(dataUrl);
+        window.referenceFile = file;
+        if (referencePreview) {
+          referencePreview.src = dataUrl;
+          referencePreview.classList.remove("hidden");
+        }
+        if (statusEl) statusEl.textContent = "Captured reference image";
+      } catch (err) {
+        console.error("Capture failed", err);
+        alert("Capture failed: " + (err.message || err));
+        if (statusEl) statusEl.textContent = "Capture failed";
+      } finally {
+        if (captureBtn) captureBtn.disabled = false;
+      }
+    });
+  }
+
+  // generate -> send to FastAPI
+  if (generateBtn) {
+    generateBtn.addEventListener("click", async () => {
+      try {
+        const prompt = (promptInput && promptInput.value) ? promptInput.value.trim() : "";
+        const targetFile = (targetInput && targetInput.files && targetInput.files[0]) ? targetInput.files[0] : null;
+        const referenceFile = window.referenceFile || null;
+
+        if (!prompt || !targetFile || !referenceFile) {
+          return alert("Please capture the scene, upload the target image, and enter a prompt.");
+        }
+
+        await setGeneratingState(true);
+
+        const fd = new FormData();
+        fd.append("prompt", prompt);
+        fd.append("target", targetFile);
+        fd.append("reference", referenceFile);
+
+        const resp = await fetch(`${API_BASE}/api/v1/generate`, { method: "POST", body: fd });
+        if (!resp.ok) {
+          const txt = await resp.text();
+          throw new Error(txt || `HTTP ${resp.status}`);
+        }
+        const data = await resp.json();
+        if (data.status !== "success") throw new Error(data.message || "Generation failed");
+
+        const genUrl = `${API_BASE}${data.image_url}`;
+        if (generatedImg) {
+          generatedImg.src = genUrl;
+          generatedImg.classList.remove("hidden");
+          generatedImg.style.display = "block";
+        }
+        if (originalImg && targetFile) {
+          originalImg.src = URL.createObjectURL(targetFile);
+          originalImg.classList.remove("hidden");
+          originalImg.style.display = "none"; // default show generated
+        }
+
+        // enable download button
+        if (downloadBtn) {
+          downloadBtn.classList.remove("hidden");
+          downloadBtn.onclick = () => {
+            const a = document.createElement("a");
+            a.href = genUrl;
+            a.download = "generated.png";
+            document.body.appendChild(a);
+            a.click();
+            a.remove();
+          };
+        }
+
+        if (statusEl) statusEl.textContent = "Image generated";
+        // Ensure toggle default state shows generated
+        if (toggle) toggle.checked = false;
+      } catch (err) {
+        console.error("Generate failed", err);
+        alert("Generation failed: " + (err.message || err));
+        if (statusEl) statusEl.textContent = "Generation failed";
+      } finally {
+        await setGeneratingState(false);
+      }
+    });
+  }
+
+  // toggle original vs generated
+  if (toggle) {
+    toggle.addEventListener("change", (e) => {
+      const showOriginal = !!e.target.checked;
+      if (originalImg) originalImg.style.display = showOriginal ? "block" : "none";
+      if (generatedImg) generatedImg.style.display = showOriginal ? "none" : "block";
+    });
+  }
+});

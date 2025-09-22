@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vectary Integrationt</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./menu.css" />
+  </head>
+
+  <body>
+       <div id="main-layout">
+    <div id="layout-container">
+      <div class="tabs">
+        <span id="material" onclick="toggleTab('Material')">Material</span>
+      </div>
+      <div>
+        <select id="element-selector" onchange="onSelectOption(event)">
+          <option value="none">-- Select an item --</option>
+        </select>
+      </div>
+      <div class="search-sort">
+        <input type="text" class="search-prompt" placeholder="Search" />
+        <span class="sort-label">Sort</span>
+      </div>
+
+      <div class="filters">
+        <span class="filters-label">Filters</span>
+        <select class="filter-select">
+          <option>Style</option>
+        </select>
+        <select class="filter-select">
+          <option>Collection</option>
+        </select>
+        <select class="filter-select">
+          <option>Colour</option>
+        </select>
+      </div>
+
+      <!-- <button id="screenshot-btn">Take Screenshot</button>
+        <div id="preview-container">
+            <img id="screenshot-preview" alt="Screenshot preview" style="display:none;" />
+            <button id="download-btn">Download Screenshot</button>
+        </div> -->
+
+      <div id="display-container"></div>
+    </div>
+
+    <iframe
+      src="https://app.vectary.com/p/5r3UxjiIEaBQ7U0iWSaVUV"
+      id="room-scene"
+      frameborder="0"
+      width="100%"
+      height="100%"
+      allow="xr-spatial-tracking"
+    >
+    </iframe>
+  </div>
+
+    <script type= "module" src="index.js"></script>
+  </body>
+</html>

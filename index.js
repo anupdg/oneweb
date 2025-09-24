@@ -2,6 +2,72 @@ import { VctrModelApi } from "https://www.vectary.com/studio-lite/scripts/api.js
 var modelApi = new VctrModelApi("room-scene"); // DOM Id
 await modelApi.init();
 
+// modelApi.addEventListener("mouse_click", (event) => {
+//   console.log("Mouse click event from Vectary:", event);
+
+//   // For testing: always open SOFA menu
+//   if (app && app.elementSelector) {
+//     app.elementSelector.value = "SOFA";
+//     app.elementSelector.dispatchEvent(new Event("change"));
+//     console.log("SOFA menu opened via mouse_click event");
+//   }
+// });
+
+modelApi.addEventListener("hotspot_carpet_click", (event) => {
+  console.log("Hotspot click event from Vectary:", event);
+
+  // For testing: always open SOFA menu
+  if (app && app.elementSelector) {
+    app.elementSelector.value = "CARPET";
+    app.elementSelector.dispatchEvent(new Event("change"));
+    console.log("CARPET menu opened via mouse_click event");
+  }
+});
+
+modelApi.addEventListener("hotspot_chair_click", (event) => {
+    console.log("Hotspot click event from Vectary:", event);
+
+    // For testing: always open SOFA menu
+    if (app && app.elementSelector) {
+        app.elementSelector.value = "ARMCHAIR";
+        app.elementSelector.dispatchEvent(new Event("change"));
+        console.log("CARPET menu opened via mouse_click event");
+    }
+});
+
+modelApi.addEventListener("hotspot_sofa_click", (event) => {
+    console.log("Hotspot click event from Vectary:", event);
+
+    // For testing: always open SOFA menu
+    if (app && app.elementSelector) {
+        app.elementSelector.value = "SOFA";
+        app.elementSelector.dispatchEvent(new Event("change"));
+        console.log("CARPET menu opened via mouse_click event");
+    }
+});
+
+modelApi.addEventListener("hotspot_curtain_click", (event) => {
+    console.log("Hotspot click event from Vectary:", event);
+
+    // For testing: always open SOFA menu
+    if (app && app.elementSelector) {
+        app.elementSelector.value = "CURTAIN";
+        app.elementSelector.dispatchEvent(new Event("change"));
+        console.log("CURTAIN menu opened via mouse_click event");
+    }
+});
+
+
+modelApi.addEventListener("hotspot_wall_click", (event) => {
+    console.log("Hotspot click event from Vectary:", event);
+
+    // For testing: always open SOFA menu
+    if (app && app.elementSelector) {
+        app.elementSelector.value = "WALL";
+        app.elementSelector.dispatchEvent(new Event("change"));
+        console.log("WALL menu opened via mouse_click event");
+    }
+});
 
 class DOMUtils {
   static createImage({ src, alt, onClick }) {
@@ -281,7 +347,7 @@ class App {
     }
 
 
-     registerEvents() {
+    registerEvents() {
         window.onSelectOption = (e) => this.handleSelection(e);
         window.nodes = this.nodes;
 
@@ -388,6 +454,7 @@ class App {
 
 
 }
+
 
 
 const app = new App(modelApi);

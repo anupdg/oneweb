@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vectary Model Replacer</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <iframe
+      src="https://app.vectary.com/p/1dTs7llXuKQW4xIfh95iRO"
+      id="room-scene"
+      frameborder="0"
+      width="100%"
+      height="560"
+      style="position: relative; z-index: 0"
+    ></iframe>
+
+    <h3 style="margin-top: 20px">
+      Click on a Sofa Model to Replace the Existing One:
+    </h3>
+
+    <div
+      id="mesh-section"
+      style="
+        position: relative;
+        z-index: 1;
+        display: flex;
+        gap: 10px;
+        margin-top: 20px;
+      "
+    >
+      <div
+        class="model-tile"
+        data-url="https://samodelsdemo.blob.core.windows.net/models/SOFA_BON.glb"
+        style="
+          cursor: pointer;
+          padding: 12px 20px;
+          background: #f5f5f5;
+          border: 1px solid #ccc;
+          border-radius: 8px;
+        "
+      >
+        <strong>SOFA_BON</strong>
+      </div>
+      <div
+        class="model-tile"
+        data-url="https://samodelsdemo.blob.core.windows.net/models/SOFA_LAVSIT.glb"
+        style="
+          cursor: pointer;
+          padding: 12px 20px;
+          background: #f5f5f5;
+          border: 1px solid #ccc;
+          border-radius: 8px;
+        "
+      >
+        <strong>SOFA_LAVSIT</strong>
+      </div>
+      <div
+        class="model-tile"
+        data-url="https://samodelsdemo.blob.core.windows.net/models/JohnSankeySofa.fbx"
+        style="
+          cursor: pointer;
+          padding: 12px 20px;
+          background: #f5f5f5;
+          border: 1px solid #ccc;
+          border-radius: 8px;
+        "
+      >
+        <strong>JohnSankeySofa</strong>
+      </div>
+      <div
+        class="model-tile"
+        data-url="https://samodelsdemo.blob.core.windows.net/models/SOFA_LORANSO.glb"
+        style="
+          cursor: pointer;
+          padding: 12px 20px;
+          background: #f5f5f5;
+          border: 1px solid #ccc;
+          border-radius: 8px;
+        "
+      >
+        <strong>SOFA_LORANSO</strong>
+      </div>
+    </div>
+
+    <script type="module">
+      import { VctrModelApi } from "https://www.vectary.com/studio-lite/scripts/api.js";
+
+      const modelApi = new VctrModelApi("room-scene");
+      await modelApi.init();
+
+      const sofaGroup = (await modelApi.getObjects(["sofaGroup"]))[0];
+      console.log("Sofa group:", sofaGroup);
+
+      const initialSofaObject = (await modelApi.getObjects(["SOFA"]))[0];
+      console.log("Initial sofa object:", initialSofaObject);
+
+      // No need to call the api for this if you already have the object
+      const position = initialSofaObject.position;
+      const rotation = initialSofaObject.rotation;
+      const scale = initialSofaObject.scale;
+
+      let lastProcessedObject = initialSofaObject;
+
+      function filenameWithoutExtension(filename) {
+        return filename.replace(/\.[^/.]+$/, "");
+      }
+
+      async function applyMesh(url) {
+        console.log(`Loading model from URL: ${url}`);
+
+        try {
+          const before = await modelApi.getObjects();
+          console.log("Scene objects before import:", before);
+
+          // const blob = await fetch(url).then((res) => res.blob());
+          // await modelApi.importFiles([blob]);
+          await modelApi.importFiles(url);
+
+          const after = await modelApi.getObjects();
+          console.log("Scene objects after import:", after);
+
+          const lastImportedObject = after[after.length - 1];
+          console.log("Last imported object:", lastImportedObject);
+
+          await modelApi.moveObjects(
+            lastImportedObject.id,
+            sofaGroup.id,
+            null,
+            false
+          );
+
+          // If the sofaGroup already has the right setup, you don't need to apply any transforms
+          /* await modelApi.setPosition(lastImportedObject.id, position);
+                    await modelApi.setScale(lastImportedObject.id, scale);
+                    await modelApi.setRotation(lastImportedObject.id, rotation); */
+
+          await modelApi.toggleVisibility([lastProcessedObject.id]);
+          lastProcessedObject = lastImportedObject;
+        } catch (error) {
+          console.error("❌ Error while replacing sofa:", error);
+        }
+      }
+
+      document.querySelectorAll(".model-tile").forEach((tile) => {
+        tile.addEventListener("click", async () => {
+          const url = tile.getAttribute("data-url");
+          if (!url) return;
+          await applyMesh(url);
+        });
+      });
+    </script>
+  </body>
+</html>
